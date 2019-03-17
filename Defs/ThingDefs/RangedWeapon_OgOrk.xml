@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--==================== Ork - Shoota =========================-->
+	<ThingDef ParentName="OGOrkGun">
+		<defName>OGO_Gun_OShoota</defName>
+		<label>Shoota</label>
+		<description>A Shoota is a kinetic, ballistic weapon used by the Orks that is chosen not for its efficiency but for the amount of noise it makes and the amount of damage it can do. The best Shootas are deafening and deadly in equal measure. Like the Slugga, Shootas are not very accurate. This suits the Orks just fine since they seem less interested in accuracy than in causing damage and raising a ruckus. The noise of a Shoota will give Orks a morale boost and can cause enemies to lose their morale and retreat from the overpowering noise of dozens of Shootas. None the less, mobs of Shoota Boyz make up for their lack of accuracy with the sheer volume of fire directed at their targets.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/Ork/Shoota</texPath>
+			<graphicClass>Graphic_Single</graphicClass>		
+    </graphicData>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<statBases>
+			<WorkToMake>32000</WorkToMake>
+			<MarketValue>2250</MarketValue>
+			<Mass>3</Mass>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.50</AccuracyMedium>
+			<AccuracyLong>0.40</AccuracyLong>
+			<RangedWeapon_Cooldown>1.05</RangedWeapon_Cooldown>
+		</statBases>
+	<recipeMaker>
+		<researchPrerequisite>OrkishCunning</researchPrerequisite>
+	</recipeMaker>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.05</PsychicSensitivity>
+			<MoveSpeed>0.25</MoveSpeed>
+		</equippedStatOffsets>
+		<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OGO_Bullet_OShoota</defaultProjectile>
+				<warmupTime>0.5</warmupTime>
+				<range>31</range>
+				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<burstShotCount>12</burstShotCount>
+				<soundCast>Shot_Revolver</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>8</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			</li>
+		</verbs>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>Gun</li>
+			<li>OShoota</li>
+			<li>OCunningGun</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OGORanged</li>
+		</tradeTags>
+		<costList>				<!-- USED TO CONTROL WHAT IS GIVEN WHEN ITEM IS SMELTED TIER 1-->
+			<OGO_Component>2</OGO_Component>
+			<OGO_Bitz>4</OGO_Bitz>
+			<Steel>20</Steel>
+		</costList>
+	</ThingDef>
+
+	<!--==================== Intense Cunning =========================-->
+	<!--==================== Ork - Twin Linked Shoota =========================-->
+	<ThingDef ParentName="OGOrkSpecialGun">
+		<defName>OGO_Gun_OTwinLinkedShoota</defName>
+		<label>Twin Linked Shoota</label>
+		<description>Ork Mekboyz often customise their Shootas by adding an additional barrel for more firepower. These custom Shootas cost their clients much more teef than the usual Shoota, and are often utilised by both Ork Nobs and Warbosses. Often times these deadly weapons are incorporated into Mega Armour.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/Ork/TwinLinkedShoota</texPath>
+			<graphicClass>Graphic_Single</graphicClass>		
+    </graphicData>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<statBases>
+			<WorkToMake>32000</WorkToMake>
+			<MarketValue>3550</MarketValue>
+			<Mass>6</Mass>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.60</AccuracyMedium>
+			<AccuracyLong>0.50</AccuracyLong>
+			<RangedWeapon_Cooldown>1.05</RangedWeapon_Cooldown>
+		</statBases>
+	<recipeMaker>
+		<researchPrerequisite>OrkishIntenseCunning</researchPrerequisite>
+	</recipeMaker>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.05</PsychicSensitivity>
+			<MoveSpeed>0.25</MoveSpeed>
+		</equippedStatOffsets>
+		<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OGO_Bullet_OTwinLinkedShoota</defaultProjectile>
+				<warmupTime>0.5</warmupTime>
+				<range>31</range>
+				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+				<burstShotCount>24</burstShotCount>
+				<soundCast>Shot_Revolver</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>8</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			</li>
+		</verbs>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>Gun</li>
+			<li>OTwinLinkedShoota</li>
+			<li>OICunningGun</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OGORanged</li>
+		</tradeTags>
+		<costList>				<!-- USED TO CONTROL WHAT IS GIVEN WHEN ITEM IS SMELTED TIER 1-->
+			<OGO_Component>4</OGO_Component>
+			<OGO_Bitz>15</OGO_Bitz>
+			<Steel>15</Steel>
+		</costList>
+	</ThingDef>
+
+	<!--==================== Big Mek =========================-->
+	<!--==================== Ork - Zapp Kannon =========================-->
+	<ThingDef ParentName="OGOrkHeavyGun">
+		<defName>OGO_Gun_ZappKannon</defName>
+		<label>Zapp Kannon</label>
+		<description>A Big Shoota is a loud, heavy, large-calibre machine gun that bucks and sparks when the trigger is pulled. Quite simply it is a larger caliber Shoota, and has a greater range and damage potential compared to a Shoota. A Big Shoota is also commonly fitted with an attached bayonet for melee. A Big Shoota has twice the range of a regular Shoota. Big Shootas are also less prevalent on the battlefield, as on average there is only one Ork armed with a Big Shoota for every 10 Orks in a mob, up to an average of three Big Shootas in a mob of 30 Ork Boyz.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/Ork/ZappKannon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>1.250</drawSize>			
+    </graphicData>
+	<comps>     
+		<li>
+			<compClass>AdeptusMechanicus.CompOversizedWeapon</compClass>
+		</li>
+	</comps>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<statBases>
+			<WorkToMake>42000</WorkToMake>
+			<MarketValue>8000</MarketValue>
+			<Mass>10</Mass>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
+		</statBases>
+	<recipeMaker>
+		<researchPrerequisite>OrkishBigMekBrainz</researchPrerequisite>
+	</recipeMaker>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.05</PsychicSensitivity>
+			<MoveSpeed>-0.25</MoveSpeed>
+		</equippedStatOffsets>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OGO_Bullet_OZappKannon</defaultProjectile>
+				<warmupTime>1.5</warmupTime>
+				<range>45</range>
+				<soundCast>Shot_Revolver</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			</li>
+		</verbs>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>HeavyGun</li>
+			<li>OZappKannon</li>
+			<li>OBigMekGun</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OGORanged</li>
+		</tradeTags>
+		<costList>				<!-- USED TO CONTROL WHAT IS GIVEN WHEN ITEM IS SMELTED TIER 1-->
+			<OGO_Component>8</OGO_Component>
+			<Plasteel>25</Plasteel>
+			<OGO_Bitz>30</OGO_Bitz>
+		</costList>
+	</ThingDef>
+	
+	<!--==================== Ork - Plasma Deffgun =========================-->
+	<ThingDef ParentName="OGOrkHeavyGun">
+	<defName>OGO_Gun_OPlasmaDeffgun</defName>
+	<label>Plasma Deffgun</label>
+	<description>Deffguns are heavy Ork weapons, fine examples of the Mek's craft that are made from all kinds of materials, mainly scavenged heavy weaponry of other races. Deffguns are so large they must be mounted on a special firing rig strapped to to an Ork's broad shoulders. No man could hope to fit into a Deffgun's rig without heavy augmetics or thick slabs of vat-grown muscle. This cumbersome rig is needed to absorb bone-breaking recoil each time the Deffgun is fired.</description>
+	<graphicData>
+		<texPath>Things/Item/Equipment/WeaponRanged/Ork/PlasmaDeffgun</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>1.250</drawSize>			
+    </graphicData>
+	<comps>     
+		<li>
+			<compClass>AdeptusMechanicus.CompOversizedWeapon</compClass>
+		</li>
+	</comps>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<statBases>
+			
+			<WorkToMake>42000</WorkToMake>
+			<MarketValue>9000</MarketValue>
+			<Mass>9</Mass>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
+		</statBases>
+	<recipeMaker>
+		<researchPrerequisite>OrkishBigMekBrainz</researchPrerequisite>
+	</recipeMaker>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.05</PsychicSensitivity>
+			<MoveSpeed>-0.25</MoveSpeed>
+		</equippedStatOffsets>
+		<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>OGO_Bullet_OPlasmaDeffgun</defaultProjectile>
+			<warmupTime>1.5</warmupTime>
+			<range>38</range>
+			<forcedMissRadius>0.5</forcedMissRadius>
+			<soundCast>Shot_Revolver</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>10</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			</li>
+		</verbs>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>HeavyGun</li>
+			<li>OPlasmaDeffgun</li>
+			<li>OBigMekGun</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OGORanged</li>
+		</tradeTags>
+		<costList>				<!-- USED TO CONTROL WHAT IS GIVEN WHEN ITEM IS SMELTED TIER 1-->
+			<OGO_Component>10</OGO_Component>
+			<Plasteel>35</Plasteel>
+			<OGO_Bitz>40</OGO_Bitz>
+		</costList>
+	</ThingDef>
+
+</Defs>

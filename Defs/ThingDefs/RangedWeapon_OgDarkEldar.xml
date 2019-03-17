@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--==================== Dark Eldar - Splinter Pistol, Rifle, Shard Carbine =========================-->
+	<ThingDef ParentName="OGDarkEldarGun">
+		<defName>OGDE_Gun_SplinterRifle</defName>
+		<label>Splinter Rifle</label>
+		<description>The most common weapon in the Dark Eldar Armoury, the Splinter Rifle is used by nearly every citizen of Commorragh at some point in their lives. It is the standard weapon of choice for Kabalite Warriors. The weapon is lightweight and usually sports Monomolecular Blades for added functionality in melee combat. It features a medium sized ammunition crystal to reduce weight while still maintaining a decent amount of ammo before the user needs to reload.\n\nThe gun houses an ammunition disintegration generator to break up the crystal into shards, along with a cyclic ammunition feeder to house the shards before firing. Once fired, it routes the energy used to disintegrate the ammunition crystal through a magno-electric impulse chamber that accelerates the crystal to supersonic speeds, rocketing it towards its intended target.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/DarkEldar/SplinterRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<statBases>
+			<WorkToMake>32000</WorkToMake>
+			<MarketValue>1850</MarketValue>
+			<Mass>2</Mass>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.80</AccuracyMedium>
+			<AccuracyLong>0.70</AccuracyLong>
+			<RangedWeapon_Cooldown>1.85</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.05</PsychicSensitivity>
+			<MoveSpeed>0.25</MoveSpeed>
+		</equippedStatOffsets>
+		<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OGDE_Bullet_Splinter</defaultProjectile>
+				<warmupTime>0.7</warmupTime>
+				<range>31</range>
+				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<burstShotCount>9</burstShotCount>
+				<soundCast>SplinterSound</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>8</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>DESplinterRifle</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OGDERanged</li>
+		</tradeTags>
+		<recipeMaker>
+			<recipeUsers>
+			
+			</recipeUsers>
+	<!--	<researchPrerequisite>DarkEldarBasicWeaponsTech</researchPrerequisite>	-->
+		</recipeMaker>
+		<costList>				<!-- USED TO CONTROL WHAT IS GIVEN WHEN ITEM IS SMELTED TIER 1-->
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<Plasteel>2</Plasteel>
+			<Steel>10</Steel>
+		</costList>
+	</ThingDef>
+
+	<ThingDef ParentName="OGDarkEldarSpecialGun">
+		<defName>OGDE_Gun_Shardcarbine</defName>
+		<label>Shardcarbine</label>
+		<description>The Shardcarbine has an enlarged barrel able to launch even greater volleys of toxic crystal-ammunition than the normal Splinter Rifle without interrupting the shooter at all. This weapon's range is little bit shorter than a splinter rifle and is favoured by Scourges. Some Trueborns prefer this gun over others they would be able to possess.\n\nThe gun houses an ammunition disintegration generator to break up the crystal into shards, along with a cyclic ammunition feeder to house the shards before firing. Once fired, it routes the energy used to disintegrate the ammunition crystal through a magno-electric impulse chamber that accelerates the crystal to supersonic speeds, rocketing it towards its intended target.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/DarkEldar/ShardCarbine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<statBases>
+			<WorkToMake>32000</WorkToMake>
+			<MarketValue>1850</MarketValue>
+			<Mass>2</Mass>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.80</AccuracyMedium>
+			<AccuracyLong>0.70</AccuracyLong>
+			<RangedWeapon_Cooldown>1.85</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.05</PsychicSensitivity>
+			<MoveSpeed>0.25</MoveSpeed>
+		</equippedStatOffsets>
+		<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OGDE_Bullet_ToxicSplinter</defaultProjectile>
+				<warmupTime>0.7</warmupTime>
+				<range>31</range>
+				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+				<burstShotCount>12</burstShotCount>
+				<soundCast>SplinterSound</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>8</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>DESplinterRifle</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OGDERanged</li>
+		</tradeTags>
+		<recipeMaker>
+			<recipeUsers>
+			
+			</recipeUsers>
+		</recipeMaker>
+		<costList>				<!-- USED TO CONTROL WHAT IS GIVEN WHEN ITEM IS SMELTED TIER 1-->
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<Plasteel>2</Plasteel>
+			<Steel>10</Steel>
+		</costList>
+	</ThingDef>
+
+</Defs>

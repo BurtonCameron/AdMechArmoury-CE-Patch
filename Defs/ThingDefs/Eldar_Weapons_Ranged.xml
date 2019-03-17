@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <!-- ====================== Lasbalster ===================== -->
+ <ThingDef Class="AdeptusMechanicus.ThingDef_LaserProjectile" ParentName="BaseBullet">
+	<defName>OGE_Bullet_LasBlaster</defName>
+    <label>Las Blast</label>
+    <graphicData>
+		<texPath>Things/Projectile/LasShotLrg</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+		<flyOverhead>false</flyOverhead>
+		<damageDef>OGILas</damageDef>
+		<damageAmountBase>20</damageAmountBase>
+		<armorPenetrationBase>0.32</armorPenetrationBase>
+		<stoppingPower>1.25</stoppingPower>
+		<speed>105</speed>
+    </projectile>
+		<thingClass>AdeptusMechanicus.Projectile_Laser</thingClass>
+			<preFiringInitialIntensity>0</preFiringInitialIntensity>
+			<preFiringFinalIntensity>2</preFiringFinalIntensity>
+			<postFiringInitialIntensity>2</postFiringInitialIntensity>
+			<postFiringFinalIntensity>0</postFiringFinalIntensity>
+			<preFiringDuration>2</preFiringDuration>
+			<postFiringDuration>25</postFiringDuration>
+			<StartFireChance>0.1</StartFireChance>	
+ </ThingDef>
+
+ <ThingDef ParentName="OGEldarSpecialGun">
+    <defName>OGE_Gun_LasBlaster</defName>
+    <label>Lasblaster</label>
+    <description>The Lasblaster is an Eldar Laser Weapon utilised exclusively by Swooping Hawks Aspect Warriors. Eldar lasers use psychically grown crystals to refine their already intense bursts to their optimum potency. Many Eldar consider Laser Weapons the most elegant of all, exulting in the fact that their technological mastery extends even to light itself. These include the Swooping Hawks Aspect Warriors, who have transformed the practice of pinpoint laser fire into an art in itself. Their Exarchs lead them in this deadly technique, utilising sustained fusillades of deadly light to overwhelm their foes. The Lasblaster is lower in strength than other Eldar weapons but has a range advantage that suits it to assault troops.</description>
+    <graphicData>
+		<texPath>Things/Item/Equipment/WeaponRanged/Eldar/LasBlaster</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+		<WorkToMake>60000</WorkToMake>
+		<MarketValue>2500</MarketValue>
+		<Mass>3.2</Mass>
+			<AccuracyTouch>0.70</AccuracyTouch>
+			<AccuracyShort>0.80</AccuracyShort>
+			<AccuracyMedium>0.80</AccuracyMedium>
+			<AccuracyLong>0.70</AccuracyLong>
+			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+    </statBases>
+	<recipeMaker>
+		<researchPrerequisite>EldarAdvancedWeapons</researchPrerequisite>
+	</recipeMaker>
+    <costList>
+		<Steel>35</Steel>
+		<OGE_Component>6</OGE_Component>
+		<Plasteel>15</Plasteel>
+		<OGE_Wraithbone>20</OGE_Wraithbone>
+    </costList>
+	<techLevel>Spacer</techLevel>
+    <weaponTags>
+			<li>ELasblaster</li>
+			<li>EEliteGun</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OGERanged</li>
+		</tradeTags>
+    <equippedStatOffsets>
+    </equippedStatOffsets>
+    <verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>OGE_Bullet_LasBlaster</defaultProjectile>
+			<warmupTime>1</warmupTime>
+			<range>35</range>
+			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+			<burstShotCount>6</burstShotCount>
+			<soundCast>HellgunSound</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>14</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+ </ThingDef>
+	
+</Defs>
