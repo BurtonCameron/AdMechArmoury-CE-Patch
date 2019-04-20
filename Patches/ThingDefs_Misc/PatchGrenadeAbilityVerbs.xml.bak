@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+ <!-- ====================== Grenades - Imperial ===================== -->	
+ <!-- ====================== OGI_Ability_ThrowFrag ===================== -->	
+	<Operation Class="PatchOperationSequence">
+	<success>Normal</success>
+		<operations>	
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName = "OGI_Ability_ThrowFrag"]</xpath>
+
+			</li>
+			<!--
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Projectile_OGIGrenadeFrag"]</xpath>
+				<value>
+			<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+			</value>
+			</li>
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[defName="Projectile_OGIGrenadeFrag"]/projectile</xpath>
+				<attribute>Class</attribute>
+				<value>CombatExtended.ProjectilePropertiesCE</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Projectile_OGIGrenadeFrag"]/projectile</xpath>
+				<value><applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors></value>
+			</li>
+			-->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Projectile_OGIGrenadeFrag"]</xpath>
+				<value>
+					<comps>
+						<li Class="CombatExtended.CompProperties_ExplosiveCE">
+							<fragments>
+								<Fragment_GrenadeFrag>105</Fragment_GrenadeFrag>
+							</fragments>
+						</li>
+					</comps>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+
+ <!-- ====================== OGI_Ability_ThrowKrak ===================== -->	
+	<Operation Class="PatchOperationSequence">
+	<success>Normal</success>
+		<operations>	
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName = "OGI_Ability_ThrowKrak"]</xpath>
+
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName="OGI_Ability_ThrowKrak"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/defaultProjectile</xpath>
+				<value>
+			<defaultProjectile>Bullet_OGKrakGrenade</defaultProjectile>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+
+ <!-- ====================== OGI_Ability_ThrowKrak ===================== -->	
+	<Operation Class="PatchOperationSequence">
+	<success>Normal</success>
+		<operations>	
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName = "OGI_Ability_ThrowMelta"]</xpath>
+
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName="OGI_Ability_ThrowMelta"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/defaultProjectile</xpath>
+				<value>
+			<defaultProjectile>Bullet_OGKrakGrenade</defaultProjectile>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+	
+ <!-- ====================== Grenades - Tau ===================== -->	
+ <!-- ====================== OGT_Ability_ThrowPhoton ===================== -->	
+	<Operation Class="PatchOperationSequence">
+	<success>Normal</success>
+		<operations>	
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName = "OGT_Ability_ThrowPhoton"]</xpath>
+
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName="OGT_Ability_ThrowPhoton"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/defaultProjectile</xpath>
+				<value>
+			<defaultProjectile>Bullet_OGKrakGrenade</defaultProjectile>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+
+ <!-- ====================== OGT_Ability_LaunchPhoton ===================== -->	
+	<Operation Class="PatchOperationSequence">
+	<success>Normal</success>
+		<operations>	
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName = "OGT_Ability_LaunchPhoton"]</xpath>
+
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName="OGT_Ability_LaunchPhoton"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/defaultProjectile</xpath>
+				<value>
+			<defaultProjectile>Bullet_OGKrakGrenade</defaultProjectile>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+
+ <!-- ====================== OGT_Ability_ThrowEMP ===================== -->	
+	<Operation Class="PatchOperationSequence">
+	<success>Normal</success>
+		<operations>	
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName = "OGT_Ability_ThrowEMP"]</xpath>
+
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName="OGT_Ability_ThrowEMP"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/defaultProjectile</xpath>
+				<value>
+			<defaultProjectile>Bullet_OGKrakGrenade</defaultProjectile>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+	
+ <!-- ====================== Grenades - Eldar ===================== -->	
+ <!-- ====================== OGE_Ability_ThrowPlasma ===================== -->	
+	<Operation Class="PatchOperationSequence">
+	<success>Normal</success>
+		<operations>	
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName = "OGE_Ability_ThrowPlasma"]</xpath>
+
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName="OGE_Ability_ThrowPlasma"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/defaultProjectile</xpath>
+				<value>
+			<defaultProjectile>Bullet_OGKrakGrenade</defaultProjectile>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+
+ <!-- ====================== OGE_Ability_ThrowHaywire ===================== -->	
+	<Operation Class="PatchOperationSequence">
+	<success>Normal</success>
+		<operations>	
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName = "OGE_Ability_ThrowHaywire"]</xpath>
+
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName="OGE_Ability_ThrowHaywire"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/defaultProjectile</xpath>
+				<value>
+			<defaultProjectile>Bullet_OGKrakGrenade</defaultProjectile>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+
+ <!-- ====================== OGE_Ability_ThrowMelta ===================== -->	
+	<Operation Class="PatchOperationSequence">
+	<success>Normal</success>
+		<operations>	
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName = "OGE_Ability_ThrowMelta"]</xpath>
+
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName="OGE_Ability_ThrowMelta"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/defaultProjectile</xpath>
+				<value>
+			<defaultProjectile>Bullet_OGKrakGrenade</defaultProjectile>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+
+ <!-- ====================== OGE_Ability_ThrowHallucinogen ===================== -->	
+	<Operation Class="PatchOperationSequence">
+	<success>Normal</success>
+		<operations>	
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName = "OGE_Ability_ThrowHallucinogen"]</xpath>
+
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName="OGE_Ability_ThrowHallucinogen"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/defaultProjectile</xpath>
+				<value>
+			<defaultProjectile>Bullet_OGKrakGrenade</defaultProjectile>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+
+ <!-- ====================== OGE_Ability_Launch ===================== -->	
+	<Operation Class="PatchOperationSequence">
+	<success>Normal</success>
+		<operations>	
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName = "OGE_Ability_Launch"]</xpath>
+
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName="OGE_Ability_Launch"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/defaultProjectile</xpath>
+				<value>
+			<defaultProjectile>Bullet_OGKrakGrenade</defaultProjectile>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+
+ <!-- ====================== Grenades - Ork ===================== -->	
+ <!-- ====================== OGO_Ability_ThrowFrag ===================== -->	
+	<Operation Class="PatchOperationSequence">
+	<success>Normal</success>
+		<operations>	
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName = "OGO_Ability_ThrowFrag"]</xpath>
+
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName="OGO_Ability_ThrowFrag"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/defaultProjectile</xpath>
+				<value>
+			<defaultProjectile>Bullet_OGKrakGrenade</defaultProjectile>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+
+ <!-- ====================== OGO_Ability_ThrowKrak ===================== -->	
+	<Operation Class="PatchOperationSequence">
+	<success>Normal</success>
+		<operations>	
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName = "OGO_Ability_ThrowKrak"]</xpath>
+
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName="OGO_Ability_ThrowKrak"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/defaultProjectile</xpath>
+				<value>
+			<defaultProjectile>Bullet_OGKrakGrenade</defaultProjectile>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+
+ <!-- ====================== OGO_Ability_ThrowMelta ===================== -->	
+	<Operation Class="PatchOperationSequence">
+	<success>Normal</success>
+		<operations>	
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName = "OGO_Ability_ThrowMelta"]</xpath>
+
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/AbilityUser.AbilityDef[defName="OGO_Ability_ThrowMelta"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/defaultProjectile</xpath>
+				<value>
+			<defaultProjectile>Bullet_OGKrakGrenade</defaultProjectile>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+</Patch>

@@ -11,8 +11,8 @@
         <xpath>Defs</xpath>
         <value>
 		<ScenarioDef>
-	<defName>ImperialWeaponsTestCE</defName>
-		<label>Imperial Weapons Test CE</label>
+	<defName>Weapons Test CE</defName>
+		<label>Custom Weapons Test CE</label>
 		<description>The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart. Some time later, you land on this unknown rimworld.</description>
     <scenario>
       <summary>Three crashlanded survivors - the classic RimWorld experience.</summary>
@@ -56,42 +56,12 @@
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>OGI_Gun_BoltPistol</thingDef>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>OGI_Gun_DualBoltPistols</thingDef>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
 				<thingDef>OGI_Gun_BoltGun</thingDef>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>OGI_Gun_StormBolter</thingDef>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
 				<thingDef>Ammo_OGBoltStd</thingDef>
-				<count>10000</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>OGI_Gun_StalkerBolter</thingDef>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>Ammo_OGBoltStalker</thingDef>
-				<count>100</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>OGI_Gun_HeavyBolter</thingDef>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>Ammo_OGBoltHeavyStd</thingDef>
-				<count>100</count>
+				<count>1000</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
@@ -107,21 +77,8 @@
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>OGI_Gun_LongLas</thingDef>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
 				<thingDef>Ammo_OGLasStd</thingDef>
-				<count>10000</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>OGI_Gun_LasCannon</thingDef>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>Ammo_OGLasCannon</thingDef>
-				<count>100</count>
+				<count>2000</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
@@ -130,11 +87,12 @@
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>OGI_Gun_PlasmaGun</thingDef>
+				<count>5</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>Ammo_OGPlasmaStd</thingDef>
-				<count>1000</count>
+				<count>10000</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
@@ -148,15 +106,7 @@
  <!-- ====================== Auto Weapons ===================== -->
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>OGI_Gun_AutoPistol</thingDef>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
 				<thingDef>OGI_Gun_AutoGun</thingDef>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>OGI_Gun_HeavyStubber</thingDef>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
@@ -165,7 +115,7 @@
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>Ammo_OGAuto</thingDef>
-				<count>10000</count>
+				<count>2000</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
@@ -182,15 +132,6 @@
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>Ammo_OGAutoBS</thingDef>
-				<count>100</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>OGI_Gun_AutoCannon</thingDef>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>Ammo_OGAutocannon</thingDef>
 				<count>100</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
@@ -231,34 +172,7 @@
 				<def>StartingThing_Defined</def>
 				<thingDef>OGI_Gun_CombiPlasma</thingDef>
 			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>OGI_Gun_OgrynGrenadeGauntlet</thingDef>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>Ammo_OGGrenadeFragL</thingDef>
-				<count>20</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>Ammo_OGGrenadeKrakL</thingDef>
-				<count>20</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>OGI_Gun_RocketLaucher</thingDef>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>Ammo_OGMissileFrag</thingDef>
-				<count>20</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>Ammo_OGMissileKrak</thingDef>
-				<count>20</count>
-			</li>
+
 		</parts>
 	</scenario>
 	</ScenarioDef>

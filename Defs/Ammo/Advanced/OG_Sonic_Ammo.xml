@@ -64,9 +64,9 @@
 	
   <RecipeDef ParentName="AmmoRecipeBase">
     <defName>MakeAmmo_OGSonic</defName>
-    <label>make AutoCannon cartridge x100</label>
-    <description>Craft 100 Sonic cartridges.</description>
-    <jobString>Making Sonic cartridges.</jobString>
+    <label>make Sonic capacitor x100</label>
+    <description>Craft 100 Sonic capacitors.</description>
+    <jobString>Making Sonic capacitors.</jobString>
     <ingredients>
       <li>
         <filter>

@@ -239,7 +239,8 @@
       <ammoSet>AmmoSet_OGPulse</ammoSet>
     </AmmoUser>
     <FireModes>
-    	<aiAimMode>AimedShot</aiAimMode>	
+    	<aiAimMode>AimedShot</aiAimMode>
+		<aimedBurstShotCount>18</aimedBurstShotCount>	
 		<aiUseBurstMode>TRUE</aiUseBurstMode>	
     </FireModes>
     <weaponTags>
@@ -316,7 +317,7 @@
 	</li>
   
 	<!--==================== Tau - Kroot Rifle =========================-->
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGT_Gun_TKrootRifle</defName>
     <statBases>
       <Mass>2.25</Mass>
@@ -328,7 +329,8 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.25</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<rapidfire>true</rapidfire>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGKroot</defaultProjectile>
       <warmupTime>1.3</warmupTime>
@@ -349,6 +351,7 @@
     </AmmoUser>
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
+		<aimedBurstShotCount>2</aimedBurstShotCount>
 		<aiUseBurstMode>TRUE</aiUseBurstMode>		
     </FireModes>
     <weaponTags>
@@ -581,7 +584,7 @@
 	</li>
  
 	<!--==================== Tau - Pule Rifle =========================-->
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGT_Gun_TPulseRifle</defName>
     <statBases>
       <Mass>2.8</Mass>
@@ -593,7 +596,8 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.1</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<rapidfire>true</rapidfire>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGPulse</defaultProjectile>
       <warmupTime>1.3</warmupTime>
@@ -614,6 +618,7 @@
     </AmmoUser>
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
+		<aimedBurstShotCount>2</aimedBurstShotCount>
 		<aiUseBurstMode>TRUE</aiUseBurstMode>		
     </FireModes>
     <weaponTags>

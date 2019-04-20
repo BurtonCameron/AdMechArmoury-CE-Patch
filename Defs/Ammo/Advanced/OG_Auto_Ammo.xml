@@ -109,22 +109,22 @@
   
   <RecipeDef ParentName="AmmoRecipeBase">
     <defName>MakeAmmo_OGAutocannon</defName>
-    <label>make AutoCannon cartridge x70</label>
-    <description>Craft 70 AutoCannon cartridges.</description>
-    <jobString>Making AutoCannon cartridges.</jobString>
+    <label>make AutoCannon cartridge x100</label>
+    <description>Craft 100 AutoCannon Shells.</description>
+    <jobString>Making AutoCannon Shells.</jobString>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>Plasteel</li>
+            <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>3</count>
+        <count>16</count>
       </li>
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
+            <li>FSX</li>
           </thingDefs>
         </filter>
         <count>3</count>
@@ -132,12 +132,12 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Plasteel</li>
-        <li>ComponentIndustrial</li>
+        <li>Steel</li>
+        <li>FSX</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_OGAutocannon>70</Ammo_OGAutocannon>
+      <Ammo_OGAutocannon>100</Ammo_OGAutocannon>
     </products>
 	<researchPrerequisite>ImperialHeavyWeapons</researchPrerequisite>
   </RecipeDef>
@@ -157,35 +157,35 @@
 		
   <RecipeDef ParentName="AmmoRecipeBase">
     <defName>MakeAmmo_OGAuto</defName>
-    <label>make Autogun round x90</label>
-    <description>Craft 90 Autogun rounds.</description>
+    <label>make Autogun round x200</label>
+    <description>Craft 200 Autogun rounds.</description>
     <jobString>Making Autogun rounds.</jobString>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>Plasteel</li>
+            <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>5</count>
+        <count>10</count>
       </li>
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
+            <li>FSX</li>
           </thingDefs>
         </filter>
-        <count>5</count>
+        <count>2</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Plasteel</li>
-        <li>ComponentIndustrial</li>
+        <li>Steel</li>
+        <li>FSX</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_OGAuto>90</Ammo_OGAuto>
+      <Ammo_OGAuto>200</Ammo_OGAuto>
     </products>
 	<researchPrerequisite>Machining</researchPrerequisite>
   </RecipeDef>
@@ -212,24 +212,24 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Plasteel</li>
+            <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>5</count>
+        <count>10</count>
       </li>
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
+            <li>FSX</li>
           </thingDefs>
         </filter>
-        <count>5</count>
+        <count>2</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Plasteel</li>
-        <li>ComponentIndustrial</li>
+        <li>Steel</li>
+        <li>FSX</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>

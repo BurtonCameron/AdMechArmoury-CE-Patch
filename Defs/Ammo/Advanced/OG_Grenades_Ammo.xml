@@ -68,6 +68,10 @@
         <explosionDamage>20</explosionDamage>
         <explosionDamageDef>OGIBomb</explosionDamageDef>
         <explosionRadius>2.0</explosionRadius>
+        <fragments>
+          <Fragment_GrenadeFrag>105</Fragment_GrenadeFrag>
+        </fragments>
+		<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
       </li>
     </comps>
   </ThingDef>
@@ -100,7 +104,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
-		<projectile>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<speed>35</speed>
 			<flyOverhead>false</flyOverhead>
 		</projectile>
@@ -116,7 +120,15 @@
 			<damageAmountBase>20</damageAmountBase>
 			<soundExplode>OGIAC_Explosion</soundExplode>
 			<armorPenetrationBase>1</armorPenetrationBase>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<fragments>
+          <Fragment_GrenadeFrag>105</Fragment_GrenadeFrag>
+				</fragments>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseOGGrenade">
@@ -129,6 +141,7 @@
 			<damageAmountBase>40</damageAmountBase>
 			<soundExplode>OGIAC_Explosion</soundExplode>
 			<armorPenetrationBase>3</armorPenetrationBase>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 		</projectile>
 	</ThingDef>
   

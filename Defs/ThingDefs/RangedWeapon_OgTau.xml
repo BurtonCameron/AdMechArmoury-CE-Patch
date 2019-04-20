@@ -94,7 +94,9 @@
 		</li>
 	</comps>
 		<soundInteract>Interact_Autopistol</soundInteract>
-		<statBases>
+	<thingClass>CombatExtended.ThingDef_GunOG</thingClass>
+    <statBases>
+		<reliability>1</reliability>
 			<WorkToMake>32000</WorkToMake>
 			<MarketValue>2000</MarketValue>
 			<Mass>6</Mass>
@@ -258,7 +260,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Autopistol</soundInteract>
-		<statBases>
+	<thingClass>CombatExtended.ThingDef_GunOG</thingClass>
+    <statBases>
+		<reliability>1</reliability>
 			<WorkToMake>32000</WorkToMake>
 			<MarketValue>750</MarketValue>
 			<Mass>2</Mass>

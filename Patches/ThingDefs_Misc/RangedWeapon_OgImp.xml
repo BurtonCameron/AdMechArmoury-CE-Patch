@@ -68,64 +68,6 @@
 		</value>
 	</li>
   
- <!-- ====================== Dual Bolt Pistols ===================== --> 
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-    <defName>OGI_Gun_DualBoltPistols</defName>
-    <statBases>
-      <Mass>2.8</Mass>
-      <RangedWeapon_Cooldown>0.63</RangedWeapon_Cooldown>
-      <SightsEfficiency>1.0</SightsEfficiency>
-      <ShotSpread>0.15</ShotSpread>
-      <SwayFactor>1.5</SwayFactor>
-      <Bulk>2.50</Bulk>
-    </statBases>
-    <Properties>
-		<recoilAmount>0.25</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-      <hasStandardCommand>true</hasStandardCommand>
-      <defaultProjectile>Bullet_OGBoltStd</defaultProjectile>
-      <warmupTime>0.5</warmupTime>
-      <range>21</range>
-      <soundCast>BoltSound</soundCast>
-      <soundCastTail>GunTail_Heavy</soundCastTail>
-      <muzzleFlashScale>10</muzzleFlashScale>
-	  <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
-        <burstShotCount>3</burstShotCount>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-    </Properties>
-    <AmmoUser>
-      <magazineSize>12</magazineSize>
-      <reloadTime>4</reloadTime>
-      <ammoSet>AmmoSet_OGBoltStd</ammoSet>
-    </AmmoUser>
-    <FireModes>
-    	<aiAimMode>AimedShot</aiAimMode>
-		<aiUseBurstMode>TRUE</aiUseBurstMode>		
-    </FireModes>
-    <weaponTags>
-	
-    </weaponTags>
-  </li>
-  
-	<li Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="OGI_Gun_BoltPistol"]/tools</xpath>
-		<value>
-			<tools>
-				<li Class="CombatExtended.ToolCE">
-					<label>stock</label>
-					<capacities>
-						<li>Blunt</li>
-					</capacities>
-					<power>9</power>
-					<cooldownTime>1.8</cooldownTime>
-					<armorPenetration>0.12</armorPenetration>
-				</li>
-			</tools>
-		</value>
-	</li>
-  
  <!-- ====================== Bolter ===================== -->
  <!--
 			<li Class="PatchOperationConditional">
@@ -188,7 +130,7 @@
 	</li>
 	-->
 	
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGI_Gun_BoltGun</defName>
     <statBases>
       <Mass>3.8</Mass>
@@ -200,7 +142,8 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.6</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<rapidfire>true</rapidfire>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGBoltStd</defaultProjectile>
       <warmupTime>0.3</warmupTime>
@@ -209,7 +152,7 @@
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
 	  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <burstShotCount>3</burstShotCount>
+        <burstShotCount>6</burstShotCount>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -221,6 +164,7 @@
     </AmmoUser>
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
+		<aimedBurstShotCount>3</aimedBurstShotCount>
 		<aiUseBurstMode>TRUE</aiUseBurstMode>	
     </FireModes>
     <weaponTags>
@@ -519,7 +463,7 @@
 	</li>
   
  <!-- ====================== LasGun ===================== -->
- <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+ <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGI_Gun_LasGun</defName>
     <statBases>
       <Mass>2.8</Mass>
@@ -531,7 +475,8 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.1</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<rapidfire>true</rapidfire>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGLasStd</defaultProjectile>
       <warmupTime>1</warmupTime>
@@ -540,7 +485,7 @@
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>10</muzzleFlashScale>
 	  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <burstShotCount>3</burstShotCount>
+        <burstShotCount>6</burstShotCount>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -552,7 +497,8 @@
     </AmmoUser>
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
-		<aiUseBurstMode>TRUE</aiUseBurstMode>	
+		<aimedBurstShotCount>3</aimedBurstShotCount>
+		<aiUseBurstMode>TRUE</aiUseBurstMode>
     </FireModes>
     <weaponTags>
 	
@@ -587,7 +533,7 @@
 	</li>
   
  <!-- ====================== Hellgun ===================== -->
- <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+ <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGI_Gun_Hellgun</defName>
     <statBases>
       <Mass>4.8</Mass>
@@ -599,7 +545,8 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.1</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<rapidfire>true</rapidfire>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGLasHot</defaultProjectile>
       <warmupTime>1</warmupTime>
@@ -607,8 +554,8 @@
       <soundCast>HellgunSound</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>10</muzzleFlashScale>
-	  <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <burstShotCount>6</burstShotCount>
+	  <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <burstShotCount>12</burstShotCount>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -620,7 +567,8 @@
     </AmmoUser>
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
-		<aiUseBurstMode>TRUE</aiUseBurstMode>	
+		<aimedBurstShotCount>6</aimedBurstShotCount>
+		<aiUseBurstMode>TRUE</aiUseBurstMode>
     </FireModes>
     <weaponTags>
 	
@@ -786,7 +734,7 @@
   
  <!-- ====================== Plasma Weapons ===================== -->
  <!-- ====================== Plasma Pistol ===================== -->
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGI_Gun_PlasmaPistol</defName>
     <statBases>
       <Mass>2.25</Mass>
@@ -798,7 +746,12 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.5</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<canJam>true</canJam>
+			<reliability>UR</reliability>
+			<overheat>true</overheat>
+			<criticaloverheatExplosion>false</criticaloverheatExplosion>
+			<overheatsOn>30</overheatsOn>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGPlasmaStd</defaultProjectile>
       <warmupTime>0.4</warmupTime>
@@ -854,7 +807,7 @@
 	</li>
   
  <!-- ====================== Plasma Gun ===================== -->
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGI_Gun_PlasmaGun</defName>
     <statBases>
       <Mass>2.25</Mass>
@@ -866,7 +819,13 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.5</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<canJam>true</canJam>
+			<reliability>UR</reliability>
+			<overheat>true</overheat>
+			<criticaloverheatExplosion>false</criticaloverheatExplosion>
+			<overheatsOn>30</overheatsOn>
+			<rapidfire>true</rapidfire>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGPlasmaStd</defaultProjectile>
       <warmupTime>0.4</warmupTime>
@@ -875,19 +834,20 @@
       <soundCastTail>GunTail_Medium</soundCastTail>
       <muzzleFlashScale>10</muzzleFlashScale>
 	  <ticksBetweenBurstShots>30</ticksBetweenBurstShots>
-        <burstShotCount>1</burstShotCount>
+        <burstShotCount>3</burstShotCount>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
     </Properties>
     <AmmoUser>
-      <magazineSize>6</magazineSize>
+      <magazineSize>12</magazineSize>
       <reloadTime>3.5</reloadTime>
       <ammoSet>AmmoSet_OGPlasmaStd</ammoSet>
     </AmmoUser>
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
 		<aiUseBurstMode>TRUE</aiUseBurstMode>	
+		<aimedBurstShotCount>2</aimedBurstShotCount>
     </FireModes>
     <weaponTags>
 	
@@ -922,7 +882,7 @@
 	</li>
   
  <!-- ====================== Plasma Cannon ===================== -->
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGI_Gun_PlasmaCannon</defName>
     <statBases>
       <Mass>4.8</Mass>
@@ -934,7 +894,12 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.65</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<canJam>true</canJam>
+			<reliability>UR</reliability>
+			<overheat>true</overheat>
+			<criticaloverheatExplosion>false</criticaloverheatExplosion>
+			<overheatsOn>30</overheatsOn>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGPlasmaCannon</defaultProjectile>
       <warmupTime>4</warmupTime>
@@ -1046,7 +1011,7 @@
 	</li>
 
  <!-- ====================== AutoGun ===================== -->
- <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+ <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGI_Gun_AutoGun</defName>
     <statBases>
       <Mass>2.0</Mass>
@@ -1058,7 +1023,8 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.1</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<rapidfire>true</rapidfire>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGAuto</defaultProjectile>
       <warmupTime>0.75</warmupTime>
@@ -1080,6 +1046,7 @@
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
 		<aiUseBurstMode>TRUE</aiUseBurstMode>	
+		<aimedBurstShotCount>3</aimedBurstShotCount>
     </FireModes>
     <weaponTags>
 	
@@ -1134,7 +1101,7 @@
       <soundCast>Shot_Minigun</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
-	  <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+	  <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
         <burstShotCount>24</burstShotCount>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
@@ -1231,7 +1198,7 @@
 	</li>
   
  <!-- ====================== AssaultCannon ===================== --> 
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGI_Gun_AssaultCannon</defName>
     <statBases>
       <Mass>4.8</Mass>
@@ -1243,7 +1210,10 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.45</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<canJam>true</canJam>
+			<reliability>VR</reliability>
+			<logging>false</logging>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGAuto</defaultProjectile>
       <warmupTime>3</warmupTime>
@@ -1252,18 +1222,19 @@
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
 	  <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-        <burstShotCount>120</burstShotCount>
+        <burstShotCount>100</burstShotCount>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
     </Properties>
     <AmmoUser>
-      <magazineSize>600</magazineSize>
+      <magazineSize>500</magazineSize>
       <reloadTime>10.5</reloadTime>
       <ammoSet>AmmoSet_OGAuto</ammoSet>
     </AmmoUser>
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
+		<aimedBurstShotCount>30</aimedBurstShotCount>
 		<aiUseBurstMode>TRUE</aiUseBurstMode>	
     </FireModes>
     <weaponTags>
@@ -1512,7 +1483,7 @@
       <Bulk>2.50</Bulk>
     </statBases>
     <Properties>
-		<recoilAmount>0.1</recoilAmount>
+		<recoilAmount>0.025</recoilAmount>
       <verbClass>CombatExtended.Verb_ShootCE</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGFlamer</defaultProjectile>
@@ -1580,7 +1551,7 @@
       <Bulk>4.50</Bulk>
     </statBases>
     <Properties>
-		<recoilAmount>0.1</recoilAmount>
+		<recoilAmount>0.05</recoilAmount>
       <verbClass>CombatExtended.Verb_ShootCE</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGFlamerHeavy</defaultProjectile>
@@ -1769,7 +1740,7 @@
    
  <!-- ====================== Combi Weapons ===================== -->
  <!-- ====================== CombiFlamer ===================== -->
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGI_Gun_CombiFlamer</defName>
     <statBases>
       <Mass>3.8</Mass>
@@ -1781,7 +1752,8 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.6</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<rapidfire>true</rapidfire>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGBoltStd</defaultProjectile>
       <warmupTime>0.3</warmupTime>
@@ -1790,7 +1762,7 @@
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
 	  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <burstShotCount>3</burstShotCount>
+        <burstShotCount>6</burstShotCount>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -1802,7 +1774,8 @@
     </AmmoUser>
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
-		<aiUseBurstMode>TRUE</aiUseBurstMode>	
+		<aiUseBurstMode>TRUE</aiUseBurstMode>
+		<aimedBurstShotCount>3</aimedBurstShotCount>	
     </FireModes>
     <weaponTags>
 	
@@ -1837,7 +1810,7 @@
 	</li>
   
  <!-- ====================== CombiMelta ===================== -->
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGI_Gun_CombiMelta</defName>
     <statBases>
       <Mass>3.8</Mass>
@@ -1849,7 +1822,8 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.6</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<rapidfire>true</rapidfire>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGBoltStd</defaultProjectile>
       <warmupTime>0.3</warmupTime>
@@ -1858,7 +1832,7 @@
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
 	  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <burstShotCount>3</burstShotCount>
+        <burstShotCount>6</burstShotCount>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -1871,6 +1845,7 @@
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
 		<aiUseBurstMode>TRUE</aiUseBurstMode>	
+		<aimedBurstShotCount>3</aimedBurstShotCount>
     </FireModes>
     <weaponTags>
 	
@@ -1905,7 +1880,7 @@
 	</li>
   
  <!-- ====================== CombiPlasma ===================== -->
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGI_Gun_CombiPlasma</defName>
     <statBases>
       <Mass>3.8</Mass>
@@ -1917,7 +1892,8 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.6</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<rapidfire>true</rapidfire>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGBoltStd</defaultProjectile>
       <warmupTime>0.3</warmupTime>
@@ -1926,7 +1902,7 @@
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
 	  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <burstShotCount>3</burstShotCount>
+        <burstShotCount>6</burstShotCount>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -1938,7 +1914,8 @@
     </AmmoUser>
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
-		<aiUseBurstMode>TRUE</aiUseBurstMode>	
+		<aiUseBurstMode>TRUE</aiUseBurstMode>
+		<aimedBurstShotCount>3</aimedBurstShotCount>	
     </FireModes>
     <weaponTags>
 	

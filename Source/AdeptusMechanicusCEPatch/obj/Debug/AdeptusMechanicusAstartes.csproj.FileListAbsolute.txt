@@ -1,0 +1,15 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Astartes\Source\AdeptusMechanicusAstartes\bin\Debug\AdeptusMechanicusAstartes.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Astartes\Source\AdeptusMechanicusAstartes\bin\Debug\AdeptusMechanicusAstartes.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Astartes\Source\AdeptusMechanicusAstartes\bin\Debug\Assembly-CSharp.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Astartes\Source\AdeptusMechanicusAstartes\bin\Debug\UnityEngine.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Astartes\Source\AdeptusMechanicusAstartes\bin\Debug\TextMeshPro-1.0.55.56.0b11.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Astartes\Source\AdeptusMechanicusAstartes\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Astartes\Source\AdeptusMechanicusAstartes\bin\Debug\NAudio.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Astartes\Source\AdeptusMechanicusAstartes\bin\Debug\NVorbis.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Astartes\Source\AdeptusMechanicusAstartes\bin\Debug\UnityEngine.UI.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Astartes\Source\AdeptusMechanicusAstartes\obj\Debug\AdeptusMechanicusAstartes.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Astartes\Source\AdeptusMechanicusAstartes\obj\Debug\AdeptusMechanicusAstartes.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Astartes\Source\AdeptusMechanicusAstartes\obj\Debug\AdeptusMechanicusAstartes.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Astartes\Assemblies\AdeptusMechanicusAstartes.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Astartes\Assemblies\AdeptusMechanicusAstartes.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Astartes\Source\AdeptusMechanicusAstartes\obj\Debug\AdeptusMechanicusAstartes.csprojResolveAssemblyReference.cache

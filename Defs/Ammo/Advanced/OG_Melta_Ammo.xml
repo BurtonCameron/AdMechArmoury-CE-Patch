@@ -3,13 +3,13 @@
 
    <CombatExtended.AmmoCategoryDef>
     <defName>OGFusionAC</defName>
-    <label>Sonic Wave</label>
+    <label>Melta charges</label>
     <description>Focuses a throbbing bass note into an explosive sonic crescendo that can burst eyeballs and rupture internal organs. By varying the frequency of the blast, the effect of the weapon can be altered to produce different effects.</description>
   </CombatExtended.AmmoCategoryDef>
 
     <ThingCategoryDef>
       <defName>AmmoOGMelta</defName>
-      <label>Fuision cells</label>
+      <label>Melta charges</label>
       <parent>AmmoAdvanced</parent>
       <iconPath>UI/Icons/ThingCategories/CaliberCharge</iconPath>
     </ThingCategoryDef>

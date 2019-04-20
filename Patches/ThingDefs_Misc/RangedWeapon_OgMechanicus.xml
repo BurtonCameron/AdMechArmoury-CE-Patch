@@ -9,19 +9,20 @@
     </li>
 	
 <!-- ====================== Radium Pistol ===================== -->
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGAM_Gun_RadiumPistol</defName>
     <statBases>
-      <Mass>2.8</Mass>
+      <Mass>1.2</Mass>
       <RangedWeapon_Cooldown>1.26</RangedWeapon_Cooldown>
       <SightsEfficiency>1.0</SightsEfficiency>
       <ShotSpread>0.15</ShotSpread>
       <SwayFactor>1.5</SwayFactor>
-      <Bulk>2.50</Bulk>
+      <Bulk>1.20</Bulk>
     </statBases>
     <Properties>
 		<recoilAmount>0.25</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<canJam>true</canJam>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGRadium</defaultProjectile>
       <warmupTime>0.3</warmupTime>
@@ -67,7 +68,7 @@
 	</li>
   
 <!-- ====================== Radium Carbine ===================== -->
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGAM_Gun_RadiumCarbine</defName>
     <statBases>
       <Mass>3.8</Mass>
@@ -79,16 +80,17 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.45</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<rapidfire>true</rapidfire>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGRadium</defaultProjectile>
       <warmupTime>0.4</warmupTime>
-      <range>18</range>
+      <range>27</range>
       <soundCast>Shot_ChargeBlaster</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
 	  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <burstShotCount>16</burstShotCount>
+        <burstShotCount>8</burstShotCount>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -100,7 +102,8 @@
     </AmmoUser>
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
-		<aiUseBurstMode>TRUE</aiUseBurstMode>	
+		<aiUseBurstMode>TRUE</aiUseBurstMode>
+		<aimedBurstShotCount>4</aimedBurstShotCount>	
     </FireModes>
     <weaponTags>
 	
@@ -271,7 +274,7 @@
 	</li>
   
 <!-- ====================== Plasma Caliver ===================== -->
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGAM_Gun_PlasmaCaliver</defName>
     <statBases>
       <Mass>4.8</Mass>
@@ -283,14 +286,19 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.45</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<canJam>true</canJam>
+			<reliability>UR</reliability>
+			<overheat>true</overheat>
+			<criticaloverheatExplosion>true</criticaloverheatExplosion>
+			<overheatsOn>30</overheatsOn>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGPlasmaStd</defaultProjectile>
-      <warmupTime>1</warmupTime>
-      <range>18</range>
+      <warmupTime>1.5</warmupTime>
+      <range>28</range>
       <soundCast>PlasmaPistolSound</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
-      <muzzleFlashScale>10</muzzleFlashScale>
+      <muzzleFlashScale>30</muzzleFlashScale>
 	  <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
         <burstShotCount>6</burstShotCount>
         <targetParams>
@@ -304,7 +312,8 @@
     </AmmoUser>
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
-		<aiUseBurstMode>TRUE</aiUseBurstMode>	
+		<aiUseBurstMode>TRUE</aiUseBurstMode>
+		<aimedBurstShotCount>3</aimedBurstShotCount>	
     </FireModes>
     <weaponTags>
 	
@@ -339,7 +348,7 @@
 	</li>
   
 <!-- ====================== Plasma Culverin ===================== -->
- <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+ <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGAM_Gun_PlasmaCulverin</defName>
     <statBases>
       <Mass>4.8</Mass>
@@ -351,7 +360,13 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.45</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<canJam>true</canJam>
+			<reliability>UR</reliability>
+			<overheat>true</overheat>
+			<criticaloverheatExplosion>true</criticaloverheatExplosion>
+			<overheatsOn>30</overheatsOn>
+			<logging>false</logging>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGPlasmaCannon</defaultProjectile>
       <warmupTime>4</warmupTime>
@@ -373,6 +388,7 @@
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
 		<aiUseBurstMode>TRUE</aiUseBurstMode>	
+		<aimedBurstShotCount>2</aimedBurstShotCount>
     </FireModes>
     <weaponTags>
 	
@@ -515,7 +531,7 @@
 	</li>
     
 <!-- ====================== Arc Rifle ===================== -->
- <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+ <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGAM_Gun_ArcRifle</defName>
     <statBases>
       <Mass>4.8</Mass>
@@ -527,7 +543,8 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.1</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<rapidfire>true</rapidfire>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGArc</defaultProjectile>
       <warmupTime>1</warmupTime>
@@ -536,7 +553,6 @@
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>10</muzzleFlashScale>
 	  <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <burstShotCount>1</burstShotCount>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -548,7 +564,6 @@
     </AmmoUser>
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
-		<aiUseBurstMode>TRUE</aiUseBurstMode>	
     </FireModes>
     <weaponTags>
 	
@@ -616,7 +631,8 @@
     </AmmoUser>
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
-		<aiUseBurstMode>TRUE</aiUseBurstMode>	
+		<aiUseBurstMode>TRUE</aiUseBurstMode>
+		<aimedBurstShotCount>8</aimedBurstShotCount>	
     </FireModes>
     <weaponTags>
 	
@@ -666,7 +682,7 @@
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGGalvanic</defaultProjectile>
       <warmupTime>3</warmupTime>
-      <range>30</range>
+      <range>35</range>
       <soundCast>Shot_ChargeRifle</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
@@ -730,7 +746,7 @@
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGTransuranic</defaultProjectile>
       <warmupTime>4</warmupTime>
-      <range>60</range>
+      <range>45</range>
       <soundCast>Shot_ChargeRifle</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>

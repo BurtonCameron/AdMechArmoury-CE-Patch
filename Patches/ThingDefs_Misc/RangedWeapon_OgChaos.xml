@@ -69,7 +69,7 @@
   </li>
   
 <!-- ==================== Traitor - Bolter ===================== -->
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGC_Gun_BoltGun</defName>
     <statBases>
       <Mass>3.2</Mass>
@@ -81,7 +81,8 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.25</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<rapidfire>true</rapidfire>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGBoltStd</defaultProjectile>
       <warmupTime>0.6</warmupTime>
@@ -90,7 +91,7 @@
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>10</muzzleFlashScale>
 	  <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
-        <burstShotCount>3</burstShotCount>
+        <burstShotCount>6</burstShotCount>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -102,6 +103,7 @@
     </AmmoUser>
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
+		<aimedBurstShotCount>3</aimedBurstShotCount>
 		<aiUseBurstMode>TRUE</aiUseBurstMode>		
     </FireModes>
     <weaponTags>
@@ -332,7 +334,7 @@
   </li>
   
 <!-- ==================== Traitor - Plasma Pistol ===================== -->
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGC_Gun_PlasmaPistol</defName>
     <statBases>
       <Mass>4.8</Mass>
@@ -344,7 +346,12 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.5</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<canJam>true</canJam>
+			<reliability>UR</reliability>
+			<overheat>true</overheat>
+			<criticaloverheatExplosion>false</criticaloverheatExplosion>
+			<overheatsOn>30</overheatsOn>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGPlasmaStd</defaultProjectile>
       <warmupTime>0.4</warmupTime>
@@ -401,7 +408,7 @@
   </li>
   
 <!-- ==================== Traitor - Plasma Gun ===================== -->
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGC_Gun_PlasmaGun</defName>
     <statBases>
       <Mass>4.8</Mass>
@@ -413,7 +420,13 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.5</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<canJam>true</canJam>
+			<reliability>UR</reliability>
+			<overheat>true</overheat>
+			<criticaloverheatExplosion>false</criticaloverheatExplosion>
+			<overheatsOn>30</overheatsOn>
+			<rapidfire>true</rapidfire>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGPlasmaStd</defaultProjectile>
       <warmupTime>0.4</warmupTime>
@@ -422,7 +435,7 @@
       <soundCastTail>GunTail_Medium</soundCastTail>
       <muzzleFlashScale>10</muzzleFlashScale>
 	  <ticksBetweenBurstShots>60</ticksBetweenBurstShots>
-        <burstShotCount>2</burstShotCount>
+        <burstShotCount>3</burstShotCount>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -435,6 +448,7 @@
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
 		<aiUseBurstMode>TRUE</aiUseBurstMode>	
+		<aimedBurstShotCount>2</aimedBurstShotCount>
     </FireModes>
     <weaponTags>
 		<li>Gun</li>
@@ -470,7 +484,7 @@
   </li>
   
 <!-- ==================== Traitor - Plasma Cannon ===================== -->
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGC_Gun_PlasmaCannon</defName>
     <statBases>
       <Mass>4.8</Mass>
@@ -482,7 +496,12 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.65</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<canJam>true</canJam>
+			<reliability>UR</reliability>
+			<overheat>true</overheat>
+			<criticaloverheatExplosion>false</criticaloverheatExplosion>
+			<overheatsOn>30</overheatsOn>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGPlasmaCannon</defaultProjectile>
       <warmupTime>4</warmupTime>
@@ -727,7 +746,7 @@
   </li>
    
 <!-- ==================== Traitor - Sonic Blaster ===================== -->
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGC_Gun_CSonicBlaster</defName>
     <statBases>
       <Mass>2.8</Mass>
@@ -739,7 +758,8 @@
     </statBases>
     <Properties>
 		<recoilAmount>0.15</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<rapidfire>true</rapidfire>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGSonic</defaultProjectile>
       <warmupTime>0.3</warmupTime>
@@ -760,6 +780,7 @@
     </AmmoUser>
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
+		<aimedBurstShotCount>4</aimedBurstShotCount>
     </FireModes>
     <weaponTags>
       <li>CBlastmaster</li>

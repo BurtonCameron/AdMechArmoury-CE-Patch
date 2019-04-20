@@ -36,7 +36,9 @@
 		<graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+	<thingClass>CombatExtended.ThingDef_GunOG</thingClass>
     <statBases>
+		<reliability>1</reliability>
 		<WorkToMake>60000</WorkToMake>
 		<MarketValue>2500</MarketValue>
 		<Mass>3.2</Mass>

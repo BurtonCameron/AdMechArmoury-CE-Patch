@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury-CE-Patch\Source\AdeptusMechanicusCEPatch\obj\Debug\AdeptusMechanicusCEPatch.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury-CE-Patch\Source\AdeptusMechanicusCEPatch\obj\Debug\AdeptusMechanicusCEPatch.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury-CE-Patch\Assemblies\AdeptusMechanicusCE.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury-CE-Patch\Assemblies\AdeptusMechanicusCE.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury-CE-Patch\Source\AdeptusMechanicusCEPatch\obj\Debug\AdeptusMechanicusCE.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury-CE-Patch\Source\AdeptusMechanicusCEPatch\obj\Debug\AdeptusMechanicusCE.pdb

@@ -17,7 +17,9 @@
 		</li>
 	</comps>
     <soundInteract>Interact_Rifle</soundInteract>
+	<thingClass>CombatExtended.ThingDef_GunOG</thingClass>
     <statBases>
+		<reliability>1</reliability>
 		<WorkToMake>180000</WorkToMake>
 		<MarketValue>4000</MarketValue>
 		<Mass>5.2</Mass>
@@ -293,7 +295,9 @@
 		</li>
 	</comps>
     <soundInteract>Interact_Rifle</soundInteract>
+	<thingClass>CombatExtended.ThingDef_GunOG</thingClass>
     <statBases>
+		<reliability>1</reliability>
 		<WorkToMake>125000</WorkToMake>
 		<MarketValue>6500</MarketValue>
 		<Mass>8.2</Mass>
@@ -326,10 +330,9 @@
 		<li>
 			<verbClass>Verb_Shoot</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>OGI_Bullet_HeavyBolter</defaultProjectile>
+			<defaultProjectile>OGI_Bullet_HeavyBoltStd</defaultProjectile>
 			<warmupTime>3</warmupTime>
 			<range>38</range>
-			<forcedMissRadius>0.5</forcedMissRadius>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<burstShotCount>6</burstShotCount>
 			<soundCast>BoltSound</soundCast>
@@ -446,7 +449,9 @@
 		<graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+	<thingClass>CombatExtended.ThingDef_GunOG</thingClass>
     <statBases>
+		<reliability>1</reliability>
 		<WorkToMake>125000</WorkToMake>
 		<MarketValue>500</MarketValue>
 		<Mass>3.2</Mass>
@@ -526,7 +531,9 @@
 		<graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+	<thingClass>CombatExtended.ThingDef_GunOG</thingClass>
     <statBases>
+		<reliability>1</reliability>
 		<WorkToMake>125000</WorkToMake>
 		<MarketValue>1500</MarketValue>
 		<Mass>3.2</Mass>
@@ -604,7 +611,9 @@
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
+	<thingClass>CombatExtended.ThingDef_GunOG</thingClass>
     <statBases>
+		<reliability>1</reliability>
 		<WorkToMake>15000</WorkToMake>
 		<MarketValue>450</MarketValue>
 		<Mass>1.2</Mass>
@@ -682,7 +691,9 @@
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
+	<thingClass>CombatExtended.ThingDef_GunOG</thingClass>
     <statBases>
+		<reliability>1</reliability>
 		<WorkToMake>18000</WorkToMake>
 		<MarketValue>825</MarketValue>
 		<Mass>2.25</Mass>
@@ -769,7 +780,9 @@
 		</li>
 	</comps>
     <soundInteract>Interact_Rifle</soundInteract>
+	<thingClass>CombatExtended.ThingDef_GunOG</thingClass>
     <statBases>
+		<reliability>1</reliability>
 		<WorkToMake>120000</WorkToMake>
 		<MarketValue>4000</MarketValue>
 		<Mass>5.2</Mass>
@@ -844,7 +857,9 @@
 		</li>
 	</comps>
     <soundInteract>Interact_Rifle</soundInteract>
+	<thingClass>CombatExtended.ThingDef_GunOG</thingClass>
     <statBases>
+		<reliability>1</reliability>
 		<WorkToMake>5000</WorkToMake>
 		<MarketValue>350</MarketValue>
 		<Mass>2</Mass>
@@ -921,7 +936,9 @@
 		</li>
 	</comps>
     <soundInteract>Interact_Rifle</soundInteract>
+	<thingClass>CombatExtended.ThingDef_GunOG</thingClass>
     <statBases>
+		<reliability>1</reliability>
 		<WorkToMake>120000</WorkToMake>
 		<MarketValue>1750</MarketValue>
 		<Mass>6</Mass>

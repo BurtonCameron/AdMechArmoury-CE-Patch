@@ -657,7 +657,7 @@
 	</li>
 	
 	<!-- ====================== Eldar - Lasbalster ===================== -->
-  <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+  <li Class="CombatExtended.PatchOperationMakeGunCEOGCompatible">
     <defName>OGE_Gun_LasBlaster</defName>
     <statBases>
       <Mass>2.2</Mass>
@@ -668,8 +668,9 @@
       <Bulk>2.20</Bulk>
     </statBases>
     <Properties>
-		<recoilAmount>0.6</recoilAmount>
-      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+		<recoilAmount>0.3</recoilAmount>
+      <verbClass>CombatExtended.Verb_ShootCEOG</verbClass>
+			<rapidfire>true</rapidfire>
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_OGLasE</defaultProjectile>
       <warmupTime>1.75</warmupTime>
@@ -677,7 +678,7 @@
       <soundCast>MeltaSound</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
-        <burstShotCount>7</burstShotCount>
+        <burstShotCount>8</burstShotCount>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -689,6 +690,7 @@
     </AmmoUser>
     <FireModes>
     	<aiAimMode>AimedShot</aiAimMode>
+		<aimedBurstShotCount>4</aimedBurstShotCount>
 		<aiUseBurstMode>TRUE</aiUseBurstMode>
     </FireModes>
     <weaponTags>
