@@ -94,7 +94,7 @@
     <products>
       <Ammo_OGSonic>100</Ammo_OGSonic>
     </products>
-	<!-- <researchPrerequisite>ImperialHeavyWeapons</researchPrerequisite> -->
+	<!-- <researchPrerequisite>OG_Weapons_Heavy_Imperial</researchPrerequisite> -->
   </RecipeDef>
 	
 	<!-- ================== Projectiles ================== -->

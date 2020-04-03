@@ -67,7 +67,7 @@
     <label>Ion Rifle Beam</label>
 <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageAmountBase>45</damageAmountBase>
-	  <explosionRadius>0.75</explosionRadius>
+  <explosionRadius>0.75</explosionRadius>
       <armorPenetrationBase>3.0</armorPenetrationBase>
 	  <soundExplode>OGIPP_Explosion</soundExplode>
     </projectile>
@@ -105,7 +105,7 @@
     <products>
       <Ammo_OGIon>70</Ammo_OGIon>
     </products>
-	<researchPrerequisite>ImperialHeavyWeapons</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Heavy_Imperial</researchPrerequisite>
   </RecipeDef>
 		
 </Defs>

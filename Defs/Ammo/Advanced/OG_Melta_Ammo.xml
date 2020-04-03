@@ -139,7 +139,7 @@
     <products>
       <Ammo_OGMelta>20</Ammo_OGMelta>
     </products>
-	<researchPrerequisite>ImperialSpecialWeapons</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Special_Imperial</researchPrerequisite>
   </RecipeDef>
 
 </Defs>

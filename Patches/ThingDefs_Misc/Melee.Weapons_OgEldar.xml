@@ -167,9 +167,9 @@
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
-					<label>point</label>
+					<label>fist</label>
 					<capacities>
-						<li>PowerBlunt</li>
+						<li>OG_PowerWeapon_Blunt</li>
 					</capacities>
 					<power>66</power>
 					<armorPenetration>1</armorPenetration>
@@ -236,7 +236,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
 					<capacities>
-						<li>PowerCut</li>
+						<li>OG_PowerWeapon_Cut</li>
 					</capacities>
 					<power>20</power>
 					<cooldownTime>1.4</cooldownTime>
@@ -245,7 +245,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
 					<capacities>
-						<li>PowerStab</li>
+						<li>OG_PowerWeapon_Stab</li>
 					</capacities>
 					<power>30</power>
 					<cooldownTime>2.5</cooldownTime>
@@ -312,7 +312,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
 					<capacities>
-						<li>PowerCut</li>
+						<li>OG_PowerWeapon_Cut</li>
 					</capacities>
 					<power>20</power>
 					<cooldownTime>0.7</cooldownTime>
@@ -321,7 +321,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
 					<capacities>
-						<li>PowerStab</li>
+						<li>OG_PowerWeapon_Stab</li>
 					</capacities>
 					<power>30</power>
 					<cooldownTime>1.25</cooldownTime>
@@ -388,7 +388,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
 					<capacities>
-						<li>PowerCut</li>
+						<li>OG_PowerWeapon_Cut</li>
 					</capacities>
 					<power>20</power>
 					<cooldownTime>1.4</cooldownTime>
@@ -397,7 +397,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
 					<capacities>
-						<li>PowerStab</li>
+						<li>OG_PowerWeapon_Stab</li>
 					</capacities>
 					<power>30</power>
 					<cooldownTime>2.5</cooldownTime>
@@ -464,7 +464,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
 					<capacities>
-						<li>ForceCut</li>
+						<li>OG_ForceWeapon_Cut</li>
 					</capacities>
 					<power>20</power>
 					<cooldownTime>1.4</cooldownTime>
@@ -473,7 +473,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
 					<capacities>
-						<li>ForceStab</li>
+						<li>OG_ForceWeapon_Stab</li>
 					</capacities>
 					<power>30</power>
 					<cooldownTime>2.5</cooldownTime>
@@ -539,7 +539,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
 					<capacities>
-						<li>PowerCut</li>
+						<li>OG_PowerWeapon_Cut</li>
 					</capacities>
 					<power>20</power>
 					<cooldownTime>1.4</cooldownTime>
@@ -548,7 +548,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
 					<capacities>
-						<li>PowerStab</li>
+						<li>OG_PowerWeapon_Stab</li>
 					</capacities>
 					<power>30</power>
 					<cooldownTime>2.5</cooldownTime>
@@ -614,7 +614,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>head</label>
 					<capacities>
-						<li>ForceBlunt</li>
+						<li>OG_ForceWeapon_Blunt</li>
 					</capacities>
 					<power>10</power>
 					<cooldownTime>1.6</cooldownTime>
@@ -664,7 +664,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
 					<capacities>
-						<li>PowerCut</li>
+						<li>OG_PowerWeapon_Cut</li>
 					</capacities>
 					<power>20</power>
 					<cooldownTime>1.4</cooldownTime>
@@ -673,7 +673,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
 					<capacities>
-						<li>PowerStab</li>
+						<li>OG_PowerWeapon_Stab</li>
 					</capacities>
 					<power>30</power>
 					<cooldownTime>2.5</cooldownTime>
@@ -716,7 +716,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
 					<capacities>
-						<li>PowerCut</li>
+						<li>OG_PowerWeapon_Cut</li>
 					</capacities>
 					<power>20</power>
 					<cooldownTime>0.7</cooldownTime>
@@ -725,7 +725,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
 					<capacities>
-						<li>PowerStab</li>
+						<li>OG_PowerWeapon_Stab</li>
 					</capacities>
 					<power>30</power>
 					<cooldownTime>1.25</cooldownTime>
@@ -761,8 +761,8 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>head</label>
 					<capacities>
-						<li>PowerCut</li>
-						<li>PowerStab</li>
+						<li>OG_PowerWeapon_Cut</li>
+						<li>OG_PowerWeapon_Stab</li>
 					</capacities>
 					<power>27</power>
 					<cooldownTime>1.9</cooldownTime>
@@ -798,7 +798,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
 					<capacities>
-						<li>PowerStab</li>
+						<li>OG_PowerWeapon_Stab</li>
 					</capacities>
 					<power>50.5</power>
 					<cooldownTime>2.3</cooldownTime>
@@ -807,7 +807,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
 					<capacities>
-						<li>PowerCut</li>
+						<li>OG_PowerWeapon_Cut</li>
 					</capacities>
 					<power>30</power>
 					<cooldownTime>1.7</cooldownTime>

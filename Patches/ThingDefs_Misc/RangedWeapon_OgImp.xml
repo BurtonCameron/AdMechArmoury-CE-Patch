@@ -28,7 +28,7 @@
       <defaultProjectile>Bullet_OGBoltStd</defaultProjectile>
       <warmupTime>0.5</warmupTime>
       <range>25</range>
-      <soundCast>BoltSound</soundCast>
+      <soundCast>Bolt_Shot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>10</muzzleFlashScale>
 	  <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
@@ -86,7 +86,7 @@
 							<range>31</range>
 							<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 							<burstShotCount>3</burstShotCount>
-							<soundCast>BoltSound</soundCast>
+							<soundCast>Bolt_Shot</soundCast>
 							<soundCastTail>GunTail_Heavy</soundCastTail>
 							<muzzleFlashScale>14</muzzleFlashScale>
 							<targetParams>
@@ -118,7 +118,7 @@
 				<range>31</range>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<burstShotCount>3</burstShotCount>
-				<soundCast>BoltSound</soundCast>
+				<soundCast>Bolt_Shot</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>14</muzzleFlashScale>
 				<targetParams>
@@ -148,7 +148,7 @@
       <defaultProjectile>Bullet_OGBoltStd</defaultProjectile>
       <warmupTime>0.3</warmupTime>
       <range>31</range>
-      <soundCast>BoltSound</soundCast>
+      <soundCast>Bolt_Shot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
 	  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -217,7 +217,7 @@
       <defaultProjectile>Bullet_OGBoltStd</defaultProjectile>
       <warmupTime>0.3</warmupTime>
       <range>31</range>
-      <soundCast>BoltSound</soundCast>
+      <soundCast>Bolt_Shot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
 	  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -285,7 +285,7 @@
       <defaultProjectile>Bullet_OGBoltStalker</defaultProjectile>
       <warmupTime>1.7</warmupTime>
       <range>30</range>
-      <soundCast>BoltSound</soundCast>
+      <soundCast>Bolt_Shot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
 	  <ticksBetweenBurstShots>30</ticksBetweenBurstShots>
@@ -353,7 +353,7 @@
       <defaultProjectile>Bullet_OGBoltHeavyStd</defaultProjectile>
       <warmupTime>3</warmupTime>
       <range>36</range>
-      <soundCast>BoltSound</soundCast>
+      <soundCast>Bolt_Shot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
 	  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -412,7 +412,7 @@
       <defaultProjectile>Bullet_OGLasStd</defaultProjectile>
       <warmupTime>1</warmupTime>
       <range>25</range>
-      <soundCast>LaspistolSound</soundCast>
+      <soundCast>LaspistolShot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>10</muzzleFlashScale>
 	  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -481,7 +481,7 @@
       <defaultProjectile>Bullet_OGLasStd</defaultProjectile>
       <warmupTime>1</warmupTime>
       <range>31</range>
-      <soundCast>LaspistolSound</soundCast>
+      <soundCast>LaspistolShot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>10</muzzleFlashScale>
 	  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -551,7 +551,7 @@
       <defaultProjectile>Bullet_OGLasHot</defaultProjectile>
       <warmupTime>1</warmupTime>
       <range>31</range>
-      <soundCast>HellgunSound</soundCast>
+      <soundCast>Hellgun_Shot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>10</muzzleFlashScale>
 	  <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
@@ -620,7 +620,7 @@
       <defaultProjectile>Bullet_OGLasLong</defaultProjectile>
       <warmupTime>2</warmupTime>
       <range>45</range>
-      <soundCast>LongLasSound</soundCast>
+      <soundCast>LongLas_Shot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
         <targetParams>
@@ -685,7 +685,7 @@
       <defaultProjectile>Bullet_OGLasCannon</defaultProjectile>
       <warmupTime>4</warmupTime>
       <range>48</range>
-      <soundCast>LascannonSound</soundCast>
+      <soundCast>Lascannon_Shot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
         <targetParams>
@@ -756,7 +756,7 @@
       <defaultProjectile>Bullet_OGPlasmaStd</defaultProjectile>
       <warmupTime>0.4</warmupTime>
       <range>25</range>
-      <soundCast>PlasmaPistolSound</soundCast>
+      <soundCast>Plasma_Pistol_Shot</soundCast>
       <soundCastTail>GunTail_Medium</soundCastTail>
       <muzzleFlashScale>10</muzzleFlashScale>
 	  <ticksBetweenBurstShots>60</ticksBetweenBurstShots>
@@ -830,7 +830,7 @@
       <defaultProjectile>Bullet_OGPlasmaStd</defaultProjectile>
       <warmupTime>0.4</warmupTime>
       <range>31</range>
-      <soundCast>PlasmaPistolSound</soundCast>
+      <soundCast>Plasma_Pistol_Shot</soundCast>
       <soundCastTail>GunTail_Medium</soundCastTail>
       <muzzleFlashScale>10</muzzleFlashScale>
 	  <ticksBetweenBurstShots>30</ticksBetweenBurstShots>
@@ -904,7 +904,7 @@
       <defaultProjectile>Bullet_OGPlasmaCannon</defaultProjectile>
       <warmupTime>4</warmupTime>
       <range>48</range>
-      <soundCast>PlasmaCannonSound</soundCast>
+      <soundCast>Plasma_Cannon_Shot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
         <targetParams>
@@ -1156,7 +1156,7 @@
       <defaultProjectile>Bullet_OGRAutocannon</defaultProjectile>
       <warmupTime>1</warmupTime>
       <range>48</range>
-      <soundCast>AutocannonSound</soundCast>
+      <soundCast>Autocannon_Shot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>10</muzzleFlashScale>
 	  <ticksBetweenBurstShots>60</ticksBetweenBurstShots>
@@ -1626,7 +1626,7 @@
       <defaultProjectile>Bullet_OGMelta</defaultProjectile>
       <warmupTime>2</warmupTime>
       <range>16</range>
-      <soundCast>MeltaSound</soundCast>
+      <soundCast>Meltagun_Shot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
         <targetParams>
@@ -1691,7 +1691,7 @@
       <defaultProjectile>Bullet_OGMultiMelta</defaultProjectile>
       <warmupTime>2</warmupTime>
       <range>24</range>
-      <soundCast>MeltaSound</soundCast>
+      <soundCast>Meltagun_Shot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
         <targetParams>
@@ -1758,7 +1758,7 @@
       <defaultProjectile>Bullet_OGBoltStd</defaultProjectile>
       <warmupTime>0.3</warmupTime>
       <range>31</range>
-      <soundCast>BoltSound</soundCast>
+      <soundCast>Bolt_Shot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
 	  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -1828,7 +1828,7 @@
       <defaultProjectile>Bullet_OGBoltStd</defaultProjectile>
       <warmupTime>0.3</warmupTime>
       <range>31</range>
-      <soundCast>BoltSound</soundCast>
+      <soundCast>Bolt_Shot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
 	  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -1898,7 +1898,7 @@
       <defaultProjectile>Bullet_OGBoltStd</defaultProjectile>
       <warmupTime>0.3</warmupTime>
       <range>31</range>
-      <soundCast>BoltSound</soundCast>
+      <soundCast>Bolt_Shot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
 	  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>

@@ -31,7 +31,7 @@
 				<defaultProjectile>OGT_Bullet_TPulseBlast</defaultProjectile>
 				<warmupTime>0.6</warmupTime>
 				<range>18</range>
-				<soundCast>PlasmaCannonSound</soundCast>
+				<soundCast>Plasma_Cannon_Shot</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>8</muzzleFlashScale>
 			<targetParams>
@@ -119,7 +119,7 @@
 				<range>36</range>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<burstShotCount>4</burstShotCount>
-				<soundCast>PlasmaPistolSound</soundCast>
+				<soundCast>Plasma_Pistol_Shot</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>8</muzzleFlashScale>
 			<targetParams>
@@ -204,7 +204,7 @@
 				<defaultProjectile>OGT_Bullet_TIonRifle</defaultProjectile>
 				<warmupTime>2.5</warmupTime>
 				<range>45</range>
-				<soundCast>IonSound</soundCast>
+				<soundCast>Ion_Shot</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
 			<targetParams>

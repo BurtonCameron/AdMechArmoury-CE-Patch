@@ -116,7 +116,7 @@
     <products>
       <Ammo_OGBoltStd>30</Ammo_OGBoltStd>
     </products>
-	<researchPrerequisite>WRImpBoltTech</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Bolter_Imperial</researchPrerequisite>
   </RecipeDef>
 	
 <ThingDef Class="CombatExtended.AmmoDef" ParentName="OGBoltBase">
@@ -164,7 +164,7 @@
     <products>
       <Ammo_OGBoltStalker>30</Ammo_OGBoltStalker>
     </products>
-	<researchPrerequisite>WRImpBoltTech</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Bolter_Imperial</researchPrerequisite>
   </RecipeDef>
 	
 <ThingDef Class="CombatExtended.AmmoDef" ParentName="OGBoltBase">
@@ -212,7 +212,7 @@
     <products>
       <Ammo_OGBoltHeavyStd>30</Ammo_OGBoltHeavyStd>
     </products>
-	<researchPrerequisite>WRImpBoltTech</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Bolter_Imperial</researchPrerequisite>
   </RecipeDef>
 	
 <ThingDef Class="CombatExtended.AmmoDef" ParentName="OGBoltBase">
@@ -260,7 +260,7 @@
     <products>
       <Ammo_OGBoltDragonfire>30</Ammo_OGBoltDragonfire>
     </products>
-	<researchPrerequisite>WRImpBoltTech</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Bolter_Imperial</researchPrerequisite>
   </RecipeDef>
 	
 <ThingDef Class="CombatExtended.AmmoDef" ParentName="OGBoltBase">
@@ -308,7 +308,7 @@
     <products>
       <Ammo_OGBoltHellfire>30</Ammo_OGBoltHellfire>
     </products>
-	<researchPrerequisite>WRImpBoltTech</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Bolter_Imperial</researchPrerequisite>
   </RecipeDef>
 	
 <ThingDef Class="CombatExtended.AmmoDef" ParentName="OGBoltBase">
@@ -356,7 +356,7 @@
     <products>
       <Ammo_OGBoltKraken>30</Ammo_OGBoltKraken>
     </products>
-	<researchPrerequisite>WRImpBoltTech</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Bolter_Imperial</researchPrerequisite>
   </RecipeDef>
 	
 <ThingDef Class="CombatExtended.AmmoDef" ParentName="OGBoltBase">
@@ -404,7 +404,7 @@
     <products>
       <Ammo_OGBoltVengeance>30</Ammo_OGBoltVengeance>
     </products>
-	<researchPrerequisite>WRImpBoltTech</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Bolter_Imperial</researchPrerequisite>
   </RecipeDef>
 	
 	<!-- ================== Projectiles ================== -->

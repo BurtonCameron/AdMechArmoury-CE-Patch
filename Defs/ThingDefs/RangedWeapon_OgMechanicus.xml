@@ -29,7 +29,7 @@
 		<RangedWeapon_Cooldown>2.25</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRRadiumWeapons</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Radium_Mechanicus</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>85</Steel>
@@ -184,7 +184,7 @@
 		<RangedWeapon_Cooldown>2.26</RangedWeapon_Cooldown>
 	</statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRMechanicusPlasma</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Plasma_Mechanicus</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>175</Steel>
@@ -213,7 +213,7 @@
 			<forcedMissRadius>0.1</forcedMissRadius>
 			<burstShotCount>3</burstShotCount>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-			<soundCast>PlasmaPistolSound</soundCast>
+			<soundCast>Plasma_Pistol_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>10</muzzleFlashScale>
 			<targetParams>
@@ -262,7 +262,7 @@
 		<RangedWeapon_Cooldown>3.00</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRMechanicusPlasma</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Plasma_Mechanicus</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>200</Steel>
@@ -291,7 +291,7 @@
 			<burstShotCount>3</burstShotCount>
 			<range>40</range>
 			<forcedMissRadius>0.5</forcedMissRadius>
-			<soundCast>PlasmaCannonSound</soundCast>
+			<soundCast>Plasma_Cannon_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -334,7 +334,7 @@
 		<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRMechanicusPlasma</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Plasma_Mechanicus</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>175</Steel>
@@ -391,7 +391,7 @@
     <label>Cognis Flamer</label>
     <description>A Cognis Flamer is an Imperial Flamer Weapon used by the military forces of the Adeptus Mechanicus which has been outfitted with a Cogitator. The spark-like anger of the Cognis Flamer's artificially intelligent Machine Spirit has been fanned to a roaring blaze. When under duress it will fight with incendiary wrath, even should its wielder be distracted.</description>
     <graphicData>
-		<texPath>Things/Item/Equipment/WeaponRanged/Imperial/CognisFlamer</texPath>
+		<texPath>Things/Item/Equipment/WeaponRanged/Imperial/FlamerCognis</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>

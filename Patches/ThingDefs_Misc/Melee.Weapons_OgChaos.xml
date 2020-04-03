@@ -111,7 +111,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>blade</label>
 					<capacities>
-						<li>PowerCut</li>
+						<li>OG_PowerWeapon_Cut</li>
 					</capacities>
 					<power>14</power>
 					<cooldownTime>1.3</cooldownTime>
@@ -120,7 +120,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>point</label>
 					<capacities>
-						<li>PowerStab</li>
+						<li>OG_PowerWeapon_Stab</li>
 					</capacities>
 					<power>20</power>
 					<cooldownTime>1.8</cooldownTime>

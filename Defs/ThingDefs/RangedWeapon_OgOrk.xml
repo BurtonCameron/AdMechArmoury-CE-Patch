@@ -71,7 +71,7 @@
 		<label>Twin Linked Shoota</label>
 		<description>Ork Mekboyz often customise their Shootas by adding an additional barrel for more firepower. These custom Shootas cost their clients much more teef than the usual Shoota, and are often utilised by both Ork Nobs and Warbosses. Often times these deadly weapons are incorporated into Mega Armour.</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponRanged/Ork/TwinLinkedShoota</texPath>
+			<texPath>Things/Item/Equipment/WeaponRanged/Ork/ShootaTwinLinked</texPath>
 			<graphicClass>Graphic_Single</graphicClass>		
     </graphicData>
 		<soundInteract>Interact_Autopistol</soundInteract>
@@ -200,7 +200,7 @@
 	<label>Plasma Deffgun</label>
 	<description>Deffguns are heavy Ork weapons, fine examples of the Mek's craft that are made from all kinds of materials, mainly scavenged heavy weaponry of other races. Deffguns are so large they must be mounted on a special firing rig strapped to to an Ork's broad shoulders. No man could hope to fit into a Deffgun's rig without heavy augmetics or thick slabs of vat-grown muscle. This cumbersome rig is needed to absorb bone-breaking recoil each time the Deffgun is fired.</description>
 	<graphicData>
-		<texPath>Things/Item/Equipment/WeaponRanged/Ork/PlasmaDeffgun</texPath>
+		<texPath>Things/Item/Equipment/WeaponRanged/Ork/DeffgunPlasma</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<drawSize>1.250</drawSize>			
     </graphicData>

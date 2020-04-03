@@ -6,10 +6,11 @@
     <label>Bolter</label>
     <description>The Bolter, also called a Boltgun, and its variants are some of the most powerful hand-held ballistic anti-personnel weaponry in use by the military forces of the Imperium of Man. It is a powerful assault weapon that fires explosive kinetic rounds colloquially referred to as bolts. The Bolter is a weapon synonymous with the Adeptus Astartes, and rightly so. However, although the Space Marines are its primary users, the Bolter finds itself in use in military organisations throughout the Imperium. The weapon is fearsome, with explosive rounds capable of ripping through or blowing apart a foe. The Chaos Space Marines of the Traitor Legions were issued their Legions' Bolters before the Horus Heresy, and therefore use generally older variants than the patterns available to present-day Loyalist Space Marines.\n\nSpecial Rules:\nRapid Fire\nRapid Fire Weapons fire twice as many rounds per burst.</description>
     <graphicData>
-		<texPath>Things/Item/Equipment/WeaponRanged/Imperial/BoltGunIII</texPath>
+		<texPath>Things/Item/Equipment/WeaponRanged/Imperial/Bolter</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-		<drawSize>1.1</drawSize>			
+      <color>(0.286,0.286,0.286)</color>
+      <drawSize>1.1</drawSize>			
     </graphicData>
 	<comps>     
 		<li>
@@ -30,7 +31,7 @@
 		<RangedWeapon_Cooldown>2.25</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRImpBoltTech</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Bolter_Imperial</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>175</Steel>
@@ -56,7 +57,7 @@
 			<range>31</range>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<burstShotCount>3</burstShotCount>
-			<soundCast>BoltSound</soundCast>
+			<soundCast>Bolt_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -139,7 +140,7 @@
 		<RangedWeapon_Cooldown>2.25</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRImpBoltTech</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Bolter_Imperial</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>175</Steel>
@@ -164,7 +165,7 @@
 			<range>31</range>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<burstShotCount>3</burstShotCount>
-			<soundCast>BoltSound</soundCast>
+			<soundCast>Bolt_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -180,7 +181,7 @@
 			<range>31</range>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<burstShotCount>3</burstShotCount>
-			<soundCast>BoltSound</soundCast>
+			<soundCast>Bolt_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -196,7 +197,7 @@
 			<range>31</range>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<burstShotCount>3</burstShotCount>
-			<soundCast>BoltSound</soundCast>
+			<soundCast>Bolt_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -212,7 +213,7 @@
 			<range>31</range>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<burstShotCount>3</burstShotCount>
-			<soundCast>BoltSound</soundCast>
+			<soundCast>Bolt_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -228,7 +229,7 @@
 			<range>38</range>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<burstShotCount>3</burstShotCount>
-			<soundCast>BoltSound</soundCast>
+			<soundCast>Bolt_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -249,7 +250,7 @@
 			<range>24</range>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<burstShotCount>3</burstShotCount>
-			<soundCast>BoltSound</soundCast>
+			<soundCast>Bolt_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -285,7 +286,7 @@
     <label>Heavy Bolter</label>
     <description>A Heavy Bolter is a powerful Bolt Weapon that is used for anti-infantry and fire support roles, and is also known as the "Backbreaker" or the "Bruiser" because of its great weight and the amount of damage it can deal. Unlike the Boltgun, it is relatively common in Imperial Guard armies and is also often used by the Space Marines. Heavy Bolters have a high rate of fire and are relatively cheap to field. A Heavy Bolter can also be mounted on the cupola pintle-mounts of a wide variety of Imperial armoured vehicles, as well as act as an anti-personnel weapon by Imperial fixed defences, including strongholds and other fortifications.</description>
     <graphicData>
-		<texPath>Things/Item/Equipment/WeaponRanged/Imperial/HeavyBolter</texPath>
+		<texPath>Things/Item/Equipment/WeaponRanged/Imperial/BolterHeavy</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<drawSize>1.250</drawSize>			
     </graphicData>
@@ -308,7 +309,7 @@
 		<RangedWeapon_Cooldown>3.00</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRImpBoltTech</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Bolter_Imperial</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>200</Steel>
@@ -335,7 +336,7 @@
 			<range>38</range>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<burstShotCount>6</burstShotCount>
-			<soundCast>BoltSound</soundCast>
+			<soundCast>Bolt_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -377,7 +378,7 @@
 			<RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRImpLasTech</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Laser_Imperial</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>75</Steel>
@@ -408,7 +409,7 @@
 			<range>25</range>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<burstShotCount>4</burstShotCount>
-			<soundCast>LaspistolSound</soundCast>
+			<soundCast>LaspistolShot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -462,7 +463,7 @@
 			<RangedWeapon_Cooldown>0.50</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRImpLasTech</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Laser_Imperial</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>75</Steel>
@@ -491,7 +492,7 @@
 			<range>31</range>
 			<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
 			<burstShotCount>3</burstShotCount>
-			<soundCast>LaspistolSound</soundCast>
+			<soundCast>LaspistolShot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -544,7 +545,7 @@
 			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRImpLasTech</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Laser_Imperial</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>105</Steel>
@@ -572,7 +573,7 @@
 			<range>35</range>
 			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 			<burstShotCount>6</burstShotCount>
-			<soundCast>HellgunSound</soundCast>
+			<soundCast>Hellgun_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -624,7 +625,7 @@
 		<RangedWeapon_Cooldown>1.26</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRImpPlasmaTech</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Plasma_Imperial</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>125</Steel>
@@ -652,7 +653,7 @@
 			<range>25</range>
 			<forcedMissRadius>0.5</forcedMissRadius>
 			<burstShotCount>1</burstShotCount>
-			<soundCast>PlasmaPistolSound</soundCast>
+			<soundCast>Plasma_Pistol_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>10</muzzleFlashScale>
 			<targetParams>
@@ -704,7 +705,7 @@
 		<RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRImpPlasmaTech</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Plasma_Imperial</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>175</Steel>
@@ -733,7 +734,7 @@
 			<forcedMissRadius>0.5</forcedMissRadius>
 			<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
 			<burstShotCount>1</burstShotCount>
-			<soundCast>PlasmaPistolSound</soundCast>
+			<soundCast>Plasma_Pistol_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>10</muzzleFlashScale>
 			<targetParams>
@@ -793,7 +794,7 @@
 		<RangedWeapon_Cooldown>3.00</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRImpPlasmaTech</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Plasma_Imperial</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>200</Steel>
@@ -821,7 +822,7 @@
 			<warmupTime>4</warmupTime>
 			<range>45</range>
 			<forcedMissRadius>0.5</forcedMissRadius>
-			<soundCast>PlasmaCannonSound</soundCast>
+			<soundCast>Plasma_Cannon_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -1156,7 +1157,7 @@
       <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>ImperialSpecialWeapons</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Special_Imperial</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>100</Steel>
@@ -1232,7 +1233,7 @@
 			<RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>ImperialHeavyWeapons</researchPrerequisite>
+			<researchPrerequisite>OG_Weapons_Heavy_Imperial</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 		<Steel>100</Steel>
@@ -1372,7 +1373,7 @@
     <label>Heavy Flamer</label>
     <description>Flamers, also known as "Flame Guns", are Flamer Weapons that come in a wide variety of designs and patterns, but all are ideal for flushing out enemies in cover and putting groups of foes to the torch with projected flame. The two most common variants of Flamers either have a detachable fuel canister under the barrel, or a hose connecting to a backpack canister. Flamers are most commonly used by Imperial assault forces such as Space Marine Assault Squads, though xenos races such as the Eldar, Orks and the Tau are also known to make use of similar weapons.</description>
     <graphicData>
-		<texPath>Things/Item/Equipment/WeaponRanged/Imperial/HeavyFlamer</texPath>
+		<texPath>Things/Item/Equipment/WeaponRanged/Imperial/FlamerHeavy</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -1490,7 +1491,7 @@
 			<defaultProjectile>OGI_Bullet_Melta</defaultProjectile>
 			<warmupTime>0.25</warmupTime>
 			<range>16</range>
-			<soundCast>MeltaSound</soundCast>
+			<soundCast>Meltagun_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -1525,7 +1526,7 @@
     <label>MultiMelta</label>
     <description>The Meltagun, also called a "Fusion Gun," "Melter," or "Cooker," is a powerful, short-ranged anti-armour weapon that produces an intense, energetic beam of heat in the tens of thousands of degrees Centigrade. The Melta Gun is used by the Space Marines, the troops of the Imperial Guard and other military forces of the Imperium of Man such as the Orders Militant of the Adepta Sororitas. Melta Weapons emit devastatingly intense but short-ranged blasts of heat which can melt through almost any material. Most types of Melta Weapon like the Meltagun function by inducing highly pressurised gases from an ammunition canister into an unstable sub-molecular state which produces nuclear fusion and directing the resulting energies down the barrel. Melta Weapon usage is always accompanied by a distinctive hissing sound as the Melta beam boils away the water in the air, then a roaring blast as the beam reduces the target to charred scraps or molten slag. Meltaguns are the premier Imperial anti-armour weapons, and few if any vehicles can withstand their power.</description>
     <graphicData>
-		<texPath>Things/Item/Equipment/WeaponRanged/Imperial/MultiMelta</texPath>
+		<texPath>Things/Item/Equipment/WeaponRanged/Imperial/MeltaMulti</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
@@ -1564,7 +1565,7 @@
 			<defaultProjectile>OGI_Bullet_Melta</defaultProjectile>
 			<warmupTime>1.5</warmupTime>
 			<range>32</range>
-			<soundCast>MeltaSound</soundCast>
+			<soundCast>Meltagun_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -1599,7 +1600,7 @@
     <label>Combi-Flamer</label>
     <description>Combi-weapons are a variety weaponry derived from the integration of multiple different weapon types into a single weapon.\n\nThere are two major types of Combi-weapons. The first combines two identical weapons into one larger weapon, giving the resulting weapon system a higher rate of fire and better accuracy by virtue of simply throwing more shells, heat beams or plasma at the target. The second type of Combi-weapon is an amalgamation of two wholly different weapons into a single casing.\n\nOnly one component of the combined weapon can be fired at a time, and often the secondary weapon has very limited ammunition, enough for only one shot or short burst of fire. Such weapons augment the bearer's tactical flexibility, granting him a limited capacity to deal with threats that the main weapon would find hard or impossible to damage.\n\nA standard Bolter with a Flamer attached to the side, useful for close combat.</description>
     <graphicData>
-		<texPath>Things/Item/Equipment/WeaponRanged/Imperial/CombiFlamer</texPath>
+		<texPath>Things/Item/Equipment/WeaponRanged/Imperial/BolterCombiFlamer</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<drawSize>1.1</drawSize>			
     </graphicData>
@@ -1620,7 +1621,7 @@
 		<RangedWeapon_Cooldown>2.25</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRImpBoltTech</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Bolter_Imperial</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>175</Steel>
@@ -1646,7 +1647,7 @@
 			<range>31</range>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<burstShotCount>3</burstShotCount>
-			<soundCast>BoltSound</soundCast>
+			<soundCast>Bolt_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -1681,7 +1682,7 @@
     <label>Combi-Melta</label>
     <description>Combi-weapons are a variety weaponry derived from the integration of multiple different weapon types into a single weapon.\n\nThere are two major types of Combi-weapons. The first combines two identical weapons into one larger weapon, giving the resulting weapon system a higher rate of fire and better accuracy by virtue of simply throwing more shells, heat beams or plasma at the target. The second type of Combi-weapon is an amalgamation of two wholly different weapons into a single casing.\n\nOnly one component of the combined weapon can be fired at a time, and often the secondary weapon has very limited ammunition, enough for only one shot or short burst of fire. Such weapons augment the bearer's tactical flexibility, granting him a limited capacity to deal with threats that the main weapon would find hard or impossible to damage.\n\nA standard Bolter with a Meltagun attached to its side, used as an anti-armour weapon.</description>
     <graphicData>
-		<texPath>Things/Item/Equipment/WeaponRanged/Imperial/CombiMelta</texPath>
+		<texPath>Things/Item/Equipment/WeaponRanged/Imperial/BolterCombiMelta</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<drawSize>1.1</drawSize>			
     </graphicData>
@@ -1702,7 +1703,7 @@
 		<RangedWeapon_Cooldown>2.25</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRImpBoltTech</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Bolter_Imperial</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>175</Steel>
@@ -1729,7 +1730,7 @@
 			<range>31</range>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<burstShotCount>3</burstShotCount>
-			<soundCast>BoltSound</soundCast>
+			<soundCast>Bolt_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -1764,7 +1765,7 @@
     <label>Combi-Plasma</label>
     <description>Combi-weapons are a variety weaponry derived from the integration of multiple different weapon types into a single weapon.\n\nThere are two major types of Combi-weapons. The first combines two identical weapons into one larger weapon, giving the resulting weapon system a higher rate of fire and better accuracy by virtue of simply throwing more shells, heat beams or plasma at the target. The second type of Combi-weapon is an amalgamation of two wholly different weapons into a single casing.\n\nOnly one component of the combined weapon can be fired at a time, and often the secondary weapon has very limited ammunition, enough for only one shot or short burst of fire. Such weapons augment the bearer's tactical flexibility, granting him a limited capacity to deal with threats that the main weapon would find hard or impossible to damage.\n\nA Standard Bolter with a Plasma Gun attached that is useful for a variety of tactical necessities.</description>
     <graphicData>
-		<texPath>Things/Item/Equipment/WeaponRanged/Imperial/CombiPlasma</texPath>
+		<texPath>Things/Item/Equipment/WeaponRanged/Imperial/BolterCombiPlasma</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<drawSize>1.1</drawSize>			
     </graphicData>
@@ -1786,7 +1787,7 @@
 		<RangedWeapon_Cooldown>2.25</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRImpBoltTech</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Bolter_Imperial</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>175</Steel>
@@ -1812,7 +1813,7 @@
 			<range>31</range>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<burstShotCount>3</burstShotCount>
-			<soundCast>BoltSound</soundCast>
+			<soundCast>Bolt_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>

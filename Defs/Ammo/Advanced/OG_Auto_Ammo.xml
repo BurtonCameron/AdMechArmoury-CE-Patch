@@ -139,7 +139,7 @@
     <products>
       <Ammo_OGAutocannon>100</Ammo_OGAutocannon>
     </products>
-	<researchPrerequisite>ImperialHeavyWeapons</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Heavy_Imperial</researchPrerequisite>
   </RecipeDef>
 	
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="OGCCRAutocannonBase">

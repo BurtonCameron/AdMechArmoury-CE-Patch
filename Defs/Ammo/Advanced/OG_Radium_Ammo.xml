@@ -91,7 +91,7 @@
     <products>
       <Ammo_OGRadium>90</Ammo_OGRadium>
     </products>
-	<researchPrerequisite>WRRadiumWeapons</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Radium_Mechanicus</researchPrerequisite>
   </RecipeDef>
 	<!-- ================== Projectiles ================== -->
 

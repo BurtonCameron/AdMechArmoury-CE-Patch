@@ -81,7 +81,7 @@
     <products>
       <Ammo_OGRailRifle>40</Ammo_OGRailRifle>
     </products>
-	<researchPrerequisite>WRImpLasTech</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Laser_Imperial</researchPrerequisite>
   </RecipeDef>
 		
 	<!-- ================== Projectiles ================== -->

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Adeptus Mechanicus: Armoury R1.0 Combat Extended Patch</name>
+	<name>Adeptus Mechanicus: Armoury R1.1 Combat Extended Patch</name>
 	<author>Ogliss</author>
 	<supportedVersions>
         <li>1.0</li>
+        <li>1.1</li>
 	</supportedVersions>
-	<description>V1.0
+	<description>V1.1
 	Patches my armoury mod to work with combat extended
 	
 	load order

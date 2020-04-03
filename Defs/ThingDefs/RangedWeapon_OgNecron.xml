@@ -134,7 +134,7 @@
 	</ThingDef>
 
 	<!--==================== Necron - Gauss Cannon =========================-->
-	<ThingDef ParentName="OGNecronGun">
+	<!--<ThingDef ParentName="OGNecronGun">
 		<defName>OGN_Gun_NGaussCannon</defName>
 		<label>Necron Gauss Cannon</label>
 		<description>A Gauss Cannon is type of horrifying Necron Gauss Weapon that can strip a target down molecule by molecule, reducing it to its constituent atoms in a matter of seconds. Gauss Cannons are larger than the more common Gauss Flayers and Gauss Blasters, and feature four barrels which lead to transparent tubes containing the unholy and unknown viridian energy the weapon fires, and an axe-like bayonet underneath the muzzle.\n\nUnlike more conventional directed energy weapons, a Gauss Cannon does not deliver a cutting beam or pure bolt of electromagnetic force or subatomic particles. Instead it emits an emerald, lightning-like molecular disassembling beam capable of reducing flesh, armour and bone to almost nothing. In the case of more powerful Gauss Weapons, this process occurs so rapidly and completely that the emerald beam of energy may appear to punch through its target, though it may be more accurate to think of it as "digging" its way through armour. It is said to be extremely painful to be shot with a Gauss Cannon, and victims die as much from the systemic shock of the assault as the damage caused by the beams.</description>
@@ -163,7 +163,7 @@
 				<defaultProjectile>OGN_Bullet_NGaussCannon</defaultProjectile>
 				<warmupTime>1.5</warmupTime>
 				<range>45</range>
-				<soundCast>GaussCannonSound</soundCast>
+				<soundCast>GaussCannonShot</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>8</muzzleFlashScale>
 			<targetParams>
@@ -180,10 +180,10 @@
 		<tradeTags>
 			<li>OGNRanged</li>
 		</tradeTags>
-		<costList>				<!-- USED TO CONTROL WHAT IS GIVEN WHEN ITEM IS SMELTED TIER 1-->
+		<costList>				
 			<ComponentIndustrial>1</ComponentIndustrial>
 			<Plasteel>2</Plasteel>
 			<Steel>10</Steel>
 		</costList>
-	</ThingDef>
+	</ThingDef>-->
 </Defs>

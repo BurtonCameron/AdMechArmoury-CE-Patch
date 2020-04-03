@@ -65,13 +65,16 @@
     <ammoClass>OGGrenadeFrag</ammoClass>
     <comps>
       <li Class="CombatExtended.CompProperties_ExplosiveCE">
-        <explosionDamage>20</explosionDamage>
-        <explosionDamageDef>OGIBomb</explosionDamageDef>
-        <explosionRadius>2.0</explosionRadius>
+        <damageAmountBase>20</damageAmountBase>
+        <explosiveDamageType>OGIBomb</explosiveDamageType>
+        <explosiveRadius>2.0</explosiveRadius>
+        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      </li>
+      <li Class="CombatExtended.CompProperties_Fragments">
         <fragments>
-          <Fragment_GrenadeFrag>105</Fragment_GrenadeFrag>
+          <!--<Fragment_Small>3</Fragment_Small>-->
+          <Fragment_GrenadeFrag>1</Fragment_GrenadeFrag>
         </fragments>
-		<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
       </li>
     </comps>
   </ThingDef>
@@ -89,9 +92,9 @@
     <ammoClass>OGGrenadeKrak</ammoClass>
     <comps>
       <li Class="CombatExtended.CompProperties_ExplosiveCE">
-        <explosionDamage>40</explosionDamage>
-        <explosionDamageDef>OGIBomb</explosionDamageDef>
-        <explosionRadius>1.0</explosionRadius>
+        <damageAmountBase>40</damageAmountBase>
+        <explosiveDamageType>OGIBomb</explosiveDamageType>
+        <explosiveRadius>1.0</explosiveRadius>
       </li>
     </comps>
   </ThingDef>
@@ -115,7 +118,7 @@
       <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
 		<label>Ogryn grenade</label>
       <projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<explosionRadius>1.550</explosionRadius>
+        <explosionRadius>1.550</explosionRadius>
 			<damageDef>OGIBomb</damageDef>
 			<damageAmountBase>20</damageAmountBase>
 			<soundExplode>OGIAC_Explosion</soundExplode>
@@ -123,11 +126,11 @@
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 		</projectile>
 		<comps>
-			<li Class="CombatExtended.CompProperties_ExplosiveCE">
-				<fragments>
-          <Fragment_GrenadeFrag>105</Fragment_GrenadeFrag>
-				</fragments>
-			</li>
+      <li Class="CombatExtended.CompProperties_Fragments">
+        <fragments>
+          <Fragment_Small>3</Fragment_Small>
+        </fragments>
+      </li>
 		</comps>
 	</ThingDef>
 
@@ -136,7 +139,7 @@
       <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
 		<label>Ogryn grenade</label>
       <projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<explosionRadius>1.0</explosionRadius>
+        <explosionRadius>1.0</explosionRadius>
 			<damageDef>OGIBomb</damageDef>
 			<damageAmountBase>40</damageAmountBase>
 			<soundExplode>OGIAC_Explosion</soundExplode>
@@ -188,7 +191,7 @@
     <products>
       <Ammo_OGGrenadeFragL>20</Ammo_OGGrenadeFragL>
     </products>
-	<researchPrerequisite>ImperialSpecialWeapons</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Special_Imperial</researchPrerequisite>
   </RecipeDef>
 	
   <RecipeDef ParentName="AmmoRecipeBase">
@@ -232,7 +235,7 @@
     <products>
       <Ammo_OGGrenadeKrakL>20</Ammo_OGGrenadeKrakL>
     </products>
-	<researchPrerequisite>ImperialSpecialWeapons</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Special_Imperial</researchPrerequisite>
   </RecipeDef>
 
 </Defs>

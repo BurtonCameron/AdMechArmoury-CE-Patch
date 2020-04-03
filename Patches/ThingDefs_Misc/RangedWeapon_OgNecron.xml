@@ -134,7 +134,7 @@
       <defaultProjectile>Bullet_OGGaussCannon</defaultProjectile>
       <warmupTime>0.5</warmupTime>
       <range>36</range>
-      <soundCast>GaussCannonSound</soundCast>
+      <soundCast>GaussCannonShot</soundCast>
       <soundCastTail>GunTail_Light</soundCastTail>
       <muzzleFlashScale>8</muzzleFlashScale>
         <targetParams>

@@ -29,7 +29,7 @@
 		<RangedWeapon_Cooldown>2.25</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRImpBoltTech</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Bolter_Imperial</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>175</Steel>
@@ -55,7 +55,7 @@
 			<!-- <forcedMissRadius>0.01</forcedMissRadius> -->
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<burstShotCount>3</burstShotCount>
-			<soundCast>BoltSound</soundCast>
+			<soundCast>Bolt_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -107,7 +107,7 @@
 		<RangedWeapon_Cooldown>1.26</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRImpPlasmaTech</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Plasma_Imperial</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>125</Steel>
@@ -133,7 +133,7 @@
 			<warmupTime>0.4</warmupTime>
 			<range>25</range>
 			<forcedMissRadius>0.5</forcedMissRadius>
-			<soundCast>PlasmaPistolSound</soundCast>
+			<soundCast>Plasma_Pistol_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>10</muzzleFlashScale>
 			<targetParams>
@@ -185,7 +185,7 @@
 		<RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRImpPlasmaTech</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Plasma_Imperial</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>175</Steel>
@@ -213,7 +213,7 @@
 			<forcedMissRadius>0.5</forcedMissRadius>
 			<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
 			<burstShotCount>1</burstShotCount>
-			<soundCast>PlasmaPistolSound</soundCast>
+			<soundCast>Plasma_Pistol_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>10</muzzleFlashScale>
 			<targetParams>
@@ -271,7 +271,7 @@
 		<RangedWeapon_Cooldown>3.00</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
-		<researchPrerequisite>WRImpPlasmaTech</researchPrerequisite>
+		<researchPrerequisite>OG_Weapons_Plasma_Imperial</researchPrerequisite>
 	</recipeMaker>
     <costList>
 		<Steel>200</Steel>
@@ -303,7 +303,7 @@
 			<warmupTime>4</warmupTime>
 			<range>45</range>
 			<forcedMissRadius>0.5</forcedMissRadius>
-			<soundCast>PlasmaCannonSound</soundCast>
+			<soundCast>Plasma_Cannon_Shot</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 			<targetParams>
@@ -365,7 +365,7 @@
 				<range>31</range>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<burstShotCount>8</burstShotCount>
-				<soundCast>HellgunSound</soundCast>
+				<soundCast>Hellgun_Shot</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>8</muzzleFlashScale>
 			<targetParams>

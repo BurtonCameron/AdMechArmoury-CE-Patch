@@ -146,7 +146,7 @@
     <products>
       <Ammo_OGPlasmaStd>80</Ammo_OGPlasmaStd>
     </products>
-	<researchPrerequisite>WRImpPlasmaTech</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Plasma_Imperial</researchPrerequisite>
   </RecipeDef>
 	
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="OGPlasmaBase">
@@ -194,7 +194,7 @@
     <products>
       <Ammo_OGPlasmaOrk>80</Ammo_OGPlasmaOrk>
     </products>
-	<researchPrerequisite>WRImpPlasmaTech</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Plasma_Imperial</researchPrerequisite>
   </RecipeDef>
 	
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="OGPlasmaBase">
@@ -242,7 +242,7 @@
     <products>
       <Ammo_OGPlasmaLarge>20</Ammo_OGPlasmaLarge>
     </products>
-	<researchPrerequisite>WRImpPlasmaTech</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Plasma_Imperial</researchPrerequisite>
   </RecipeDef>
 	
 	
@@ -291,7 +291,7 @@
     <products>
       <Ammo_OGPlasmaEld>80</Ammo_OGPlasmaEld>
     </products>
-	<researchPrerequisite>WRImpPlasmaTech</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Plasma_Imperial</researchPrerequisite>
   </RecipeDef>
 	
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="OGPlasmaBase">
@@ -339,7 +339,7 @@
     <products>
       <Ammo_OGPulse>80</Ammo_OGPulse>
     </products>
-	<researchPrerequisite>WRImpPlasmaTech</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Plasma_Imperial</researchPrerequisite>
   </RecipeDef>
 	
 	<!-- ================== Projectiles ================== -->
@@ -362,7 +362,7 @@
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageAmountBase>17</damageAmountBase>
       <armorPenetrationBase>1.5</armorPenetrationBase>
-	  <explosionRadius>0.50</explosionRadius>
+      <explosionRadius>0.50</explosionRadius>
 	  <soundExplode>OGIPP_Explosion</soundExplode>
     </projectile>
   </ThingDef>
@@ -377,7 +377,7 @@
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageAmountBase>90</damageAmountBase>
       <armorPenetrationBase>3.0</armorPenetrationBase>
-	  <explosionRadius>2.55</explosionRadius>
+      <explosionRadius>2.55</explosionRadius>
 	  <soundExplode>OGIPC_Explosion</soundExplode>
     </projectile>
   </ThingDef>
@@ -389,7 +389,7 @@
 			<damageDef>OGEPlas</damageDef>
       <damageAmountBase>17</damageAmountBase>
       <armorPenetrationBase>1.5</armorPenetrationBase>
-	  <explosionRadius>0.50</explosionRadius>
+      <explosionRadius>0.50</explosionRadius>
 	  <soundExplode>OGIPP_Explosion</soundExplode>
     </projectile>
   </ThingDef>
@@ -401,7 +401,7 @@
 			<damageDef>OGEPlas</damageDef>
       <damageAmountBase>35</damageAmountBase>
       <armorPenetrationBase>1.5</armorPenetrationBase>
-	  <explosionRadius>0.50</explosionRadius>
+      <explosionRadius>0.50</explosionRadius>
 	  <soundExplode>OGIPP_Explosion</soundExplode>
     </projectile>
   </ThingDef>
@@ -413,7 +413,7 @@
 			<damageDef>OGIPlasmaCannon</damageDef>
       <damageAmountBase>100</damageAmountBase>
       <armorPenetrationBase>2.5</armorPenetrationBase>
-	  <explosionRadius>2.55</explosionRadius>
+      <explosionRadius>2.55</explosionRadius>
 	  <soundExplode>OGIPC_Explosion</soundExplode>
     </projectile>
   </ThingDef>

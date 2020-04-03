@@ -160,7 +160,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>klaws</label>
 					<capacities>
-						<li>PowerCut</li>
+						<li>OG_PowerWeapon_Cut</li>
 					</capacities>
 					<power>28</power>
 					<cooldownTime>2.4</cooldownTime>

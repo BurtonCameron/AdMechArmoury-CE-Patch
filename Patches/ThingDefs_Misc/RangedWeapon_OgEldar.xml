@@ -26,7 +26,7 @@
       <defaultProjectile>Bullet_OGShuriken</defaultProjectile>
       <warmupTime>0.3</warmupTime>
       <range>25</range>
-      <soundCast>ShurikenSound</soundCast>
+      <soundCast>Shuriken_Shot</soundCast>
       <soundCastTail>GunTail_Light</soundCastTail>
       <muzzleFlashScale>8</muzzleFlashScale>
 	  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -94,7 +94,7 @@
       <defaultProjectile>Bullet_OGShuriken</defaultProjectile>
       <warmupTime>1.3</warmupTime>
       <range>28</range>
-      <soundCast>ShurikenSound</soundCast>
+      <soundCast>Shuriken_Shot</soundCast>
       <soundCastTail>GunTail_Light</soundCastTail>
       <muzzleFlashScale>8</muzzleFlashScale>
 	  <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
@@ -162,7 +162,7 @@
       <defaultProjectile>Bullet_OGShuriken</defaultProjectile>
       <warmupTime>1.3</warmupTime>
       <range>31</range>
-      <soundCast>ShurikenSound</soundCast>
+      <soundCast>Shuriken_Shot</soundCast>
       <soundCastTail>GunTail_Light</soundCastTail>
       <muzzleFlashScale>8</muzzleFlashScale>
 	  <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
@@ -230,7 +230,7 @@
       <defaultProjectile>Bullet_OGShurikenHeavy</defaultProjectile>
       <warmupTime>0.7</warmupTime>
       <range>45</range>
-      <soundCast>ShurikenSound</soundCast>
+      <soundCast>Shuriken_Shot</soundCast>
       <soundCastTail>GunTail_Light</soundCastTail>
       <muzzleFlashScale>8</muzzleFlashScale>
 	  <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
@@ -298,7 +298,7 @@
       <defaultProjectile>Bullet_OGPlasmaEld</defaultProjectile>
       <warmupTime>1.5</warmupTime>
       <range>36</range>
-      <soundCast>StarcannonSound</soundCast>
+      <soundCast>Starcannon_Shot</soundCast>
       <soundCastTail>GunTail_Medium</soundCastTail>
       <muzzleFlashScale>10</muzzleFlashScale>
 	  <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
@@ -544,7 +544,7 @@
       <defaultProjectile>Bullet_OGMelta</defaultProjectile>
       <warmupTime>1.75</warmupTime>
       <range>16</range>
-      <soundCast>MeltaSound</soundCast>
+      <soundCast>Meltagun_Shot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
         <targetParams>
@@ -609,7 +609,7 @@
       <defaultProjectile>Bullet_OGNeuralDisruptor</defaultProjectile>
       <warmupTime>0.3</warmupTime>
       <range>20</range>
-		<soundCast>ShurikenSound</soundCast>
+		<soundCast>Shuriken_Shot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
         <targetParams>
@@ -675,7 +675,7 @@
       <defaultProjectile>Bullet_OGLasE</defaultProjectile>
       <warmupTime>1.75</warmupTime>
       <range>31</range>
-      <soundCast>MeltaSound</soundCast>
+      <soundCast>Meltagun_Shot</soundCast>
       <soundCastTail>GunTail_Heavy</soundCastTail>
       <muzzleFlashScale>14</muzzleFlashScale>
         <burstShotCount>8</burstShotCount>

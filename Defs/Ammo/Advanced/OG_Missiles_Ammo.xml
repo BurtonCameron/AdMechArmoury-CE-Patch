@@ -65,13 +65,15 @@
     <ammoClass>OGMissileFrag</ammoClass>
     <comps>
       <li Class="CombatExtended.CompProperties_ExplosiveCE">
-        <explosionDamage>20</explosionDamage>
-        <explosionDamageDef>OGIBomb</explosionDamageDef>
-        <explosionRadius>2.0</explosionRadius>
-        <fragments>
-          <Fragment_GrenadeFrag>105</Fragment_GrenadeFrag>
-        </fragments>
+        <damageAmountBase>20</damageAmountBase>
+        <explosiveDamageType>OGIBomb</explosiveDamageType>
+        <explosiveRadius>2.0</explosiveRadius>
 		<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      </li>
+      <li Class="CombatExtended.CompProperties_Fragments">
+        <fragments>
+          <Fragment_RocketFrag>1</Fragment_RocketFrag>
+        </fragments>
       </li>
     </comps>
   </ThingDef>
@@ -89,9 +91,9 @@
     <ammoClass>OGMissileKrak</ammoClass>
     <comps>
       <li Class="CombatExtended.CompProperties_ExplosiveCE">
-        <explosionDamage>40</explosionDamage>
-        <explosionDamageDef>OGIBomb</explosionDamageDef>
-        <explosionRadius>1.0</explosionRadius>
+        <damageAmountBase>40</damageAmountBase>
+        <explosiveDamageType>OGIBomb</explosiveDamageType>
+        <explosiveRadius>1.0</explosiveRadius>
       </li>
     </comps>
   </ThingDef>
@@ -123,18 +125,20 @@
 			<damageDef>OGIBomb</damageDef>
 			<damageAmountBase>10</damageAmountBase>
 			<armorPenetrationBase>0.16</armorPenetrationBase>
-			<explosionRadius>4.8</explosionRadius>
+      <explosionRadius>4.8</explosionRadius>
 			<soundExplode>OGIAC_Explosion</soundExplode>
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_ExplosiveCE">
-				<explosionDamage>75</explosionDamage>
-				<explosionDamageDef>Bomb</explosionDamageDef>
-				<explosionRadius>2</explosionRadius>
-				<fragments>
-					<Fragment_GrenadeFrag>250</Fragment_GrenadeFrag>
-				</fragments>
+				<damageAmountBase>75</damageAmountBase>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explosiveRadius>2</explosiveRadius>
 			</li>
+      <li Class="CombatExtended.CompProperties_Fragments">
+        <fragments>
+          <Fragment_RocketFrag>1</Fragment_RocketFrag>
+        </fragments>
+      </li>
 		</comps>
 	</ThingDef>
 
@@ -150,7 +154,7 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>OGIBomb</damageDef>
 			<damageAmountBase>70</damageAmountBase>
-			<explosionRadius>1.5</explosionRadius>
+      <explosionRadius>1.5</explosionRadius>
 			<armorPenetrationBase>3</armorPenetrationBase>
 			<soundExplode>OGIAC_Explosion</soundExplode>
 		</projectile>
@@ -199,7 +203,7 @@
     <products>
       <Ammo_OGMissileFrag>20</Ammo_OGMissileFrag>
     </products>
-	<researchPrerequisite>ImperialHeavyWeapons</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Heavy_Imperial</researchPrerequisite>
   </RecipeDef>
 	
   <RecipeDef ParentName="AmmoRecipeBase">
@@ -243,7 +247,7 @@
     <products>
       <Ammo_OGMissileKrak>20</Ammo_OGMissileKrak>
     </products>
-	<researchPrerequisite>ImperialHeavyWeapons</researchPrerequisite>
+	<researchPrerequisite>OG_Weapons_Heavy_Imperial</researchPrerequisite>
   </RecipeDef>
 
 </Defs>
